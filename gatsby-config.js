@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.yourdomain.tld',
+    siteUrl: 'https://www.alexislepresle.com',
     title: 'alexislepresle',
   },
   plugins: [
-    'gatsby-plugin-sass',
+    'gatsby-plugin-postcss',
     'gatsby-plugin-image',
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: '',
+        trackingId: 'UA-61270414-1',
       },
     },
     'gatsby-plugin-react-helmet',
