@@ -18,18 +18,16 @@ const Testimonials = () => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            if (currentTestimonial === data.length + 1) {
-                setCurrentTestimonial(0);
+            if (currentTestimonial === (data.length - 1)) {
+                return setCurrentTestimonial(0);
             }
-            setCurrentTestimonial(currentTestimonial + 1);
+            return setCurrentTestimonial(currentTestimonial + 1);
         }, 2000);
 
         return () => {
             clearInterval(interval);
         };
     });
-
-    console.log(currentTestimonial)
 
     return (
         <section id="testimonials">
@@ -44,7 +42,7 @@ const Testimonials = () => {
                                 </svg>
                             </div>
                             <div className="col-span-5">
-                                <p className="text-center">{data[currentTestimonial].testimonial}</p>
+                                <p className="text-center">{data[currentTestimonial] && data[currentTestimonial].testimonial}</p>
                             </div>
                         </div>
                     </div>
