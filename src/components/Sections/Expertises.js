@@ -3,33 +3,33 @@ import React from 'react';
 const data = [
     {
         name: "Création de boutique",
-        description: "",
-        icon: ""
+        description: "Accompagnement du début de votre projet jusqu'à la mise en ligne de votre boutique.",
+        icon: <svg style={{ maxWidth: "25px" }} xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Storefront</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M448 448V240M64 240v208M382.47 48H129.53c-21.79 0-41.47 12-49.93 30.46L36.3 173c-14.58 31.81 9.63 67.85 47.19 69h2c31.4 0 56.85-25.18 56.85-52.23 0 27 25.46 52.23 56.86 52.23s56.8-23.38 56.8-52.23c0 27 25.45 52.23 56.85 52.23s56.86-23.38 56.86-52.23c0 28.85 25.45 52.23 56.85 52.23h1.95c37.56-1.17 61.77-37.21 47.19-69l-43.3-94.54C423.94 60 404.26 48 382.47 48zM32 464h448M136 288h80a24 24 0 0124 24v88h0-128 0v-88a24 24 0 0124-24zM288 464V312a24 24 0 0124-24h64a24 24 0 0124 24v152" /></svg>
     },
     {
         name: "Application Shopify sur-mesure",
-        description: "",
-        icon: ""
+        description: "Vous avez un besoin sur-mesure ou une idée d'app Shopify ? Je développe des Apps Shopify publics et privés.",
+        icon: <svg style={{ maxWidth: "25px" }} xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Grid</title><rect x="48" y="48" width="176" height="176" rx="20" ry="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /><rect x="288" y="48" width="176" height="176" rx="20" ry="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /><rect x="48" y="288" width="176" height="176" rx="20" ry="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /><rect x="288" y="288" width="176" height="176" rx="20" ry="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /></svg>
     },
     {
         name: "SEO",
-        description: "",
-        icon: ""
+        description: "Besoin d'améliorer votre SEO ? Je suis disponible pour vous accompagner dans l'amélioration du SEO de votre boutique.",
+        icon: <svg style={{ maxWidth: "25px" }} xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Trending Up</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M352 144h112v112" /><path d="M48 368l121.37-121.37a32 32 0 0145.26 0l50.74 50.74a32 32 0 0045.26 0L448 160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /></svg>
     },
     {
         name: "Automatisation",
-        description: "",
-        icon: ""
+        description: "Gagner du temps avec les tâches récurrentes en simplifiant les processus grâce à l'automatisation.",
+        icon: <svg style={{ maxWidth: "25px" }} xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Swap Horizontal</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M304 48l112 112-112 112M398.87 160H96M208 464L96 352l112-112M114 352h302" /></svg>
     },
     {
         name: "Consulting",
-        description: "",
-        icon: ""
+        description: "Je vous accompagne dans votre projet en vous apportant les meilleures solutions à vos besoins.",
+        icon: <svg style={{ maxWidth: "25px" }} xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Bulb</title><path d="M304 384v-24c0-29 31.54-56.43 52-76 28.84-27.57 44-64.61 44-108 0-80-63.73-144-144-144a143.6 143.6 0 00-144 144c0 41.84 15.81 81.39 44 108 20.35 19.21 52 46.7 52 76v24M224 480h64M208 432h96M256 384V256" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /><path d="M294 240s-21.51 16-38 16-38-16-38-16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /></svg>
     },
     {
         name: "Thème sur-mesure",
-        description: "",
-        icon: ""
+        description: "Vous souhaitez avoir une boutique unique ? Je design et intègre des thèmes sur-mesure qui vous ressemble.",
+        icon: <svg style={{ maxWidth: "25px" }} xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Brush</title><path d="M452.37 59.63h0a40.49 40.49 0 00-57.26 0L184 294.74c23.08 4.7 46.12 27.29 49.26 49.26l219.11-227.11a40.49 40.49 0 000-57.26zM138 336c-29.88 0-54 24.5-54 54.86 0 23.95-20.88 36.57-36 36.57C64.56 449.74 92.82 464 120 464c39.78 0 72-32.73 72-73.14 0-30.36-24.12-54.86-54-54.86z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /></svg>
     }
 ]
 
@@ -54,13 +54,11 @@ const Expertises = () => {
                                 return (
                                     <div className="relative rounded-xl shadow-lg bg-white p-10">
                                         <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-black text-white -mt-16">
-                                            <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-                                            </svg>
+                                            {item.icon}
                                         </div>
                                         <p className="mt-4 text-lg leading-6 font-medium text-gray-900">{item.name}</p>
                                         <p className="mt-2 text-base text-gray-500">
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                                            {item.description}
                                         </p>
                                     </div>
                                 )

@@ -7,6 +7,9 @@ import APropos from "../components/Sections/APropos"
 import Support from "../components/Sections/Support"
 import Projects from "../components/Sections/Projects.js"
 import Testimonials from "../components/Sections/Testimonials.js"
+import Blog from "../components/Sections/Blog.js"
+import Contact from "../components/Sections/Contact.js"
+
 // markup
 const IndexPage = () => {
   return (
@@ -44,6 +47,8 @@ const IndexPage = () => {
       <Expertises />
       <Support />
       <APropos />
+      <Blog />
+      <Contact />
       <Footer />
     </>
   )
