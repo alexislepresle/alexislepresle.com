@@ -35,7 +35,7 @@ const data = [
 
 const Expertises = () => {
     return (
-        <section className="py-12">
+        <section className="py-12" id="expertises">
             <div className="bg-indigo-600 mx-0">
                 <div className="pb-44 pt-24 max-w-7xl m-auto px-4 sm:px-6 lg:px-8">
                     <p className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-white sm:text-5xl">
@@ -48,7 +48,7 @@ const Expertises = () => {
             </div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="-mt-20">
-                    <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
+                    <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10 cursor-pointer">
                         {
                             data.map(item => {
                                 return (

@@ -12,6 +12,9 @@ import Contact from "../components/Sections/Contact.js"
 
 // markup
 const IndexPage = () => {
+
+  if (typeof document === "undefined") return <></>;
+
   return (
     <>
       <Header />
@@ -28,14 +31,14 @@ const IndexPage = () => {
                   J'accompagne des e-commerçants à développer et croitre leur boutique <span class="text-indigo-900">Shopify</span>
                 </p>
               </div>
-              <div class="md:flex-1">
+              <div class="md:flex-1 rounded-xl ">
                 <StaticImage
                   src="../images/IMG_8933.jpg"
                   width={800}
                   quality={95}
                   formats={["auto", "webp", "avif"]}
                   alt="A Gatsby astronaut"
-                  className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                  className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full rounded-xl "
                 />
               </div>
             </main>

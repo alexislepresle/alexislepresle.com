@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100vh;
+    top: 70px;
+    position: fixed;
+    z-index: 100;
+    background-color: #FFF;
+    right: 0;
+    transition: .2s;
+    transform: translateX(+110%);
+    padding: 20px;
+    font-size: 23px;
+}
+
+.side-nav.active {
+    transform: translateX(0%);
+}
+
+.text-soon{
+    font-size: 2.5rem;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    opacity: 1;
+    color: #000;
+}
+
+.prose p {
+    margin-bottom: 1.1428571em;
+    margin-top: 1.1428571em;
+}

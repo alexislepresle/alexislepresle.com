@@ -51,7 +51,10 @@ const Testimonials = () => {
                     {
                         data.map((testimonial, i) => {
                             return (
-                                <div className={(i === currentTestimonial ? "rounded-lg shadow-xl  " : " ") + "  px-5 py-2"}>
+                                <div 
+                                className={(i === currentTestimonial ? "rounded-lg shadow-xl  " : " ") + "  px-5 py-2 cursor-pointer"} 
+                                onClick={() => setCurrentTestimonial(i)}
+                                >
                                     <p className="font-bold	">{testimonial.name}</p>
                                     <p className="font-light font-blue-light text-sm">{testimonial.role}</p>
                                 </div>
