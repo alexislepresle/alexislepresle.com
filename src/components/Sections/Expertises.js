@@ -64,7 +64,7 @@ const Expertises = () => {
                                         </p>
                                         {
                                             item.link ?
-                                                <a href={item.link} target="_blank" className="mt-5 decoration-2 text-indigo-600 hover:text-indigo-300">{item.textLink} &rarr;</a> :
+                                                <a href={item.link} rel="noreferrer" target="_blank" className="mt-5 decoration-2 text-indigo-600 hover:text-indigo-300">{item.textLink} &rarr;</a> :
                                                 <></>
                                         }
                                     </div>
