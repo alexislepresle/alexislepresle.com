@@ -22,12 +22,12 @@ const APropos = () => {
                                 À Propos
                             </h2>
                             <p className="mt-4 text-lg text-gray-500">
-                                J'ai débuté ma carrière de <b>développeur web freelance </b>en parallèle de mes études en 2017.
-                                Au fil des années, je me suis <b>spécialisé dans le développement Web </b> et le langage <b>JavaScript</b>. Puis, plus particulièrement
+                                J'ai commencé ma carrière de <b>développeur web freelance </b>en parallèle de mes études en 2017.
+                                Au fil des années, je me suis <b>spécialiser dans le développement Web </b> et le langage <b>JavaScript</b>. Puis, plus particulièrement
                                 dans les librairies <b>React JS</b> et <b>Node JS</b>.
                             </p>
                             <p className="mt-4 text-lg text-gray-500">
-                                En <b>2019</b>, je me suis intéressé à <b>l'e-commerce</b> et j'ai découvert la plateforme <b>Shopify et son éco-système</b>.
+                                En <b>2019</b>, je me suis intéressé à <b>l'e-commerce</b> et j'ai découvert la plateforme <b>Shopify et son écosystème</b>.
                                 Puis, j'ai commencé à me <b>spécialisé dans Shopify</b> en proposant de nouveaux services à mes clients.
                             </p>
                             <p className="mt-4 text-lg text-gray-500">

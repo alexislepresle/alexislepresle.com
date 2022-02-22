@@ -24,7 +24,9 @@ const data = [
     {
         name: "Consulting",
         description: "Je vous accompagne dans votre projet en vous apportant les meilleures solutions à vos besoins.",
-        icon: <svg style={{ maxWidth: "25px" }} xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Bulb</title><path d="M304 384v-24c0-29 31.54-56.43 52-76 28.84-27.57 44-64.61 44-108 0-80-63.73-144-144-144a143.6 143.6 0 00-144 144c0 41.84 15.81 81.39 44 108 20.35 19.21 52 46.7 52 76v24M224 480h64M208 432h96M256 384V256" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /><path d="M294 240s-21.51 16-38 16-38-16-38-16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /></svg>
+        icon: <svg style={{ maxWidth: "25px" }} xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Bulb</title><path d="M304 384v-24c0-29 31.54-56.43 52-76 28.84-27.57 44-64.61 44-108 0-80-63.73-144-144-144a143.6 143.6 0 00-144 144c0 41.84 15.81 81.39 44 108 20.35 19.21 52 46.7 52 76v24M224 480h64M208 432h96M256 384V256" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /><path d="M294 240s-21.51 16-38 16-38-16-38-16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /></svg>,
+        link: 'https://koalendar.com/e/meet-with-lepresle-alexis',
+        textLink: 'Prendre un rendez-vous'
     },
     {
         name: "Thème sur-mesure",
@@ -42,7 +44,7 @@ const Expertises = () => {
                         Mes expertises
                     </p>
                     <p className="mt-4 max-w-2xl text-xl text-gray-200">
-                        Je suis spécialisé dans le développement de boutique e-commerce Shopify. Mon objectif est de vous accompagner dans votre projet en répondant à vos besoins afin d'accroître vos revenues et de vous faire gagner du temps.
+                        Je suis spécialisé dans le développement de boutique e-commerce et d'app Shopify. Mon objectif est de vous accompagner dans votre projet en répondant à vos besoins afin d'accroître vos revenus et de vous faire gagner du temps.
                     </p>
                 </div>
             </div>
@@ -60,6 +62,11 @@ const Expertises = () => {
                                         <p className="mt-2 text-base text-gray-500">
                                             {item.description}
                                         </p>
+                                        {
+                                            item.link ?
+                                                <a href={item.link} target="_blank" className="mt-5 decoration-2 text-indigo-600 hover:text-indigo-300">{item.textLink} &rarr;</a> :
+                                                <></>
+                                        }
                                     </div>
                                 )
                             })

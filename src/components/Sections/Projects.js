@@ -8,6 +8,7 @@ const data = [
     {
         client: "Le Petit Biscuit Français",
         link: "https://lepetitbiscuitfrancais.fr/",
+        logo: "lepetitiscuitfrancais.png"
     },
     {
         client: "Bloon Paris",
@@ -47,8 +48,8 @@ const Projects = () => {
                         data.map(client => {
                             return (
                                 <li key={client.client} className="px-3 md:px-4 flex-none ">
-                                    <figure className="shadow-lg rounded-xl flex-none w-72 h-96 md:w-xl bg-indigo-600">
-                                        <figcaption className="flex items-center flex-col justify-center space-x-4 p-6 h-96 md:px-10 md:py-6 bg-gradient-to-br rounded-xl leading-6 font-semibold text-white">
+                                    <figure className="shadow-lg flex-none w-72 h-96 md:w-xl bg-indigo-600 rounded-md ">
+                                        <figcaption className="flex items-center flex-col justify-center space-x-4 p-6 h-96 md:px-10 md:py-6 bg-gradient-to-br rounded-md leading-6 font-semibold text-white">
                                             <p>
                                                 {client.client}
                                             </p>
