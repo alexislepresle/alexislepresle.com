@@ -40,7 +40,7 @@ const Header = () => {
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                     {
-                        window.location.pathname === "/" ?
+                        typeof window !== `undefined` && window.location.pathname === "/" ?
                             <>
                                 <AnchorLink href='#expertises'>Mes Expertises</AnchorLink>
                                 <AnchorLink href='#projects'>Mes Projets</AnchorLink>
