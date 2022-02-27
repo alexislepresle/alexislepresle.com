@@ -38,9 +38,12 @@ const data = [
 const Projects = () => {
     return (
         <section className="pb-44 pt-24 max-w-7xl m-auto px-4 sm:px-6 lg:px-8" id="projects">
-            <p className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-black sm:text-5xl pb-20">
+            <div className="flex items-center justify-center">
+                <p className="btn-title m-auto block px-5 py-2 border border-transparent text-base font-medium rounded-full text-white bg-black">Projets</p>
+            </div>
+            <h2 className="text-center mt-2 text-2xl leading-8 font-extrabold tracking-tight text-black sm:text-5xl pb-20">
                 Ils travaillent avec moi
-            </p>
+            </h2>
             <div className="flex -my-8">
                 <ul className="flex items-center w-full py-8 overflow-scroll">
                     {

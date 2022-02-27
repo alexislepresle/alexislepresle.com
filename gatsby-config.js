@@ -7,6 +7,16 @@ module.exports = {
     'gatsby-plugin-postcss',
     'gatsby-plugin-image',
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `outfit`,
+          `wght@400;500;600;700;800;900` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    },
+    {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: 'UA-61270414-1',

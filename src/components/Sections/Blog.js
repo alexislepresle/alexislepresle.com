@@ -24,7 +24,7 @@ const data = [
 
 const Blog = () => {
     return (
-        <section className="py-12 relative" id="blog">
+        <section className="my-8 relative" id="blog">
             <div className="absolute  text-2xl text-soon">
                 <h4>Bientôt disponible</h4>
             </div>

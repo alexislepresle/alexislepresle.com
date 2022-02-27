@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: #F9F9F9;
+}
+
+.btn-title{
+    background: rgba(79, 70, 229, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #4F46E5;
+}
+
+.homepage-header{
+    background-image: url("../images/MacBook\ Pro\ 14_\ -\ 3\ .png");
+    background-position: center;
+}
+
+.me-img{
+    width: 190px;
+    height: 190px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .side-nav{
     display: flex;
     flex-direction: column;
@@ -36,4 +62,37 @@
 .prose p {
     margin-bottom: 1.1428571em;
     margin-top: 1.1428571em;
+}
+
+
+
+/****** Project ******/
+
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 0.1fr 0.8fr; 
+    gap: 0px 0px; 
+    grid-template-areas:
+    "box-1 box-2 box-3" 
+    "box-4 box-2 box-6"
+    "box-4 box-5 box-6"; 
+  }
+  .box-1 { grid-area: box-1; }
+  .box-4 { grid-area: box-4; }
+  .box-2 { grid-area: box-2; }
+  .box-3 { grid-area: box-3; }
+  .box-5 { grid-area: box-5; }
+  .box-6 { grid-area: box-6; }
+
+  /**** Testimonials ****/
+
+  /* Vector 3 */
+#testimonials{
+    background: linear-gradient(96.04deg, #4F46E5 0%, #7D5EF7 100%), #FFFFFF;
+}
+
+
+.bg-gray-light{
+    background: rgba(255, 255, 255, 0.5);
 }
