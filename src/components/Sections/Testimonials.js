@@ -31,7 +31,7 @@ const Testimonials = () => {
 
     return (
         <section id="testimonials">
-            <div className="text-white max-w-7xl mx-auto py-24">
+            <div className="text-white max-w-5xl mx-auto py-24">
                 <div className="flex items-center justify-center">
                     <p className="text-white px-5 mb-5 m-auto block py-2 border border-transparent text-base font-medium rounded-full bg-gray-light">Témoignages</p>
                 </div>

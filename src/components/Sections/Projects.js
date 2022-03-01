@@ -37,36 +37,38 @@ const data = [
 
 const Projects = () => {
     return (
-        <section className="pb-44 pt-24 max-w-7xl m-auto px-4 sm:px-6 lg:px-8" id="projects">
-            <div className="flex items-center justify-center">
-                <p className="btn-title m-auto block px-5 py-2 border border-transparent text-base font-medium rounded-full text-white bg-black">Projets</p>
-            </div>
-            <h2 className="text-center mt-2 text-2xl leading-8 font-extrabold tracking-tight text-black sm:text-5xl pb-20">
-                Ils travaillent avec moi
-            </h2>
-            <div className="flex -my-8">
-                <ul className="flex items-center w-full py-8 overflow-scroll">
-                    {
-                        data.map(client => {
-                            return (
-                                <li key={client.client} className="px-3 md:px-4 flex-none ">
-                                    <figure className="shadow-lg rounded-xl flex-none w-72 h-96 md:w-xl bg-indigo-600">
-                                        <figcaption className="flex items-center flex-col justify-center space-x-4 p-6 h-96 md:px-10 md:py-6 bg-gradient-to-br rounded-xl leading-6 font-semibold text-white">
-                                            <p>
-                                                {client.client}
-                                            </p>
-                                            {
-                                                client.link ?
-                                                    <a rel="noreferrer" className="mt-14 inline-flex items-center justify-center px-3 py-2 border border-transparent text-base font-medium rounded-md text-white bg-black hover:bg-white hover:text-black" target="_blank" href={client.link}> Voir le Projet</a>
-                                                    : <></>
-                                            }
-                                        </figcaption>
-                                    </figure>
-                                </li>
-                            )
-                        })
-                    }
-                </ul>
+        <section id="projects">
+            <div className="pb-44 pt-24 max-w-5xl m-auto px-4 sm:px-6 lg:px-8">
+                <div className="flex items-center justify-center">
+                    <p className="btn-title m-auto block px-5 py-2 border border-transparent text-base font-medium rounded-full text-white bg-black">Projets</p>
+                </div>
+                <h2 className="text-center mt-2 text-2xl leading-8 font-extrabold tracking-tight text-black sm:text-5xl pb-20">
+                    Ils travaillent avec moi
+                </h2>
+                <div className="flex -my-8">
+                    <ul className="flex items-center w-full py-8 overflow-scroll">
+                        {
+                            data.map(client => {
+                                return (
+                                    <li key={client.client} className="px-3 md:px-4 flex-none ">
+                                        <figure className="shadow-lg rounded-xl flex-none w-72 h-96 md:w-xl bg-indigo-600">
+                                            <figcaption className="flex items-center flex-col justify-center space-x-4 p-6 h-96 md:px-10 md:py-6 bg-gradient-to-br rounded-xl leading-6 font-semibold text-white">
+                                                <p>
+                                                    {client.client}
+                                                </p>
+                                                {
+                                                    client.link ?
+                                                        <a rel="noreferrer" className="mt-14 inline-flex items-center justify-center px-3 py-2 border border-transparent text-base font-medium rounded-md text-white bg-black hover:bg-white hover:text-black" target="_blank" href={client.link}> Voir le Projet</a>
+                                                        : <></>
+                                                }
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                )
+                            })
+                        }
+                    </ul>
+                </div>
             </div>
         </section>
     );

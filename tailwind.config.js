@@ -6,7 +6,8 @@ module.exports = {
       'black': '#494949',
       'gray-400': 'rgba(73, 105, 153, 0.47)',
       'white': '#FFF',
-      'indigo-600': '#4F46E5'
+      'indigo-600': '#4F46E5',
+      'gray-700': '#7D8FAA'
     }),
     extend: {},
   },

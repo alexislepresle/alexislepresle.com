@@ -3,18 +3,17 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const APropos = () => {
     return (
-        <div className="py-12 bg-white" id="about">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="py-12 " id="about">
+            <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="mt-10">
                     <div className="space-y-10 md:space-y-0 flex items-center flex-wrap">
-                        <div className="md:flex-1 rounded-xl ">
+                        <div className="md:flex-1">
                             <StaticImage
-                                src="../../images/Group 18 (1).png"
-                                width={800}
+                                src="../../images/about3.png"
+                                width={1000}
                                 quality={95}
                                 formats={["auto", "webp", "avif"]}
                                 alt="A propos Alexis Lepresle"
-                                className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full rounded-xl "
                             />
                         </div>
                         <div className="md:flex-1 mt-2 md:ml-16">
@@ -24,19 +23,19 @@ const APropos = () => {
                             <h2 className="text-5xl leading-8 font-extrabold tracking-tight text-black sm:text-4xl">
                                 Qui suis-je ?
                             </h2>
-                            <p className="mt-4 text-lg text-gray-400">
+                            <p className="mt-4 text-lg text-gray-700">
                                 J'ai commencé ma carrière de <b>développeur web freelance </b>en parallèle de mes études en 2017.
                                 Au fil des années, je me suis <b>spécialiser dans le développement Web </b> et le langage <b>JavaScript</b>. Puis, plus particulièrement
                                 dans les librairies <b>React JS</b> et <b>Node JS</b>.
                             </p>
-                            <p className="mt-4 text-lg text-gray-400">
+                            <p className="mt-4 text-lg text-gray-700">
                                 En <b>2019</b>, je me suis intéressé à <b>l'e-commerce</b> et j'ai découvert la plateforme <b>Shopify et son écosystème</b>.
                                 Puis, j'ai commencé à me <b>spécialisé dans Shopify</b> en proposant de nouveaux services à mes clients.
                             </p>
-                            <p className="mt-4 text-lg text-gray-400">
+                            <p className="mt-4 text-lg text-gray-700">
                                 Aujourd'hui, <b> j'accompagne mes clients à plein temps dans leurs projets e-commerce</b>.
                             </p>
-                            <p className="mt-4 text-lg text-gray-400 flex">
+                            <p className="mt-4 text-lg text-gray-700 flex">
                                 De plus, j'ai la certification
                                 <a className="underline text-indigo-600 mx-2" href="https://experts.shopify.com/alexis-lepresle" rel="noreferrer" target="_blank">
                                     <span className="text-indigo-600 flex items-center justify-center">d'Expert Shopify

@@ -65,10 +65,10 @@ const IndexPage = () => {
         </div>
       </div>
       <Projects />
-      <Testimonials />
       <Expertises />
-      <Support />
+      <Testimonials />
       <APropos />
+      <Support />
       <Blog />
       <Contact />
       <Footer />
