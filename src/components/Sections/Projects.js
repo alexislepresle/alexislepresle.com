@@ -38,14 +38,14 @@ const data = [
 const Projects = () => {
     return (
         <section id="projects">
-            <div className="pb-44 pt-24 max-w-5xl m-auto px-4 sm:px-6 lg:px-8">
+            <div className="py-24 max-w-5xl m-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-center">
                     <p className="btn-title m-auto block px-5 py-2 border border-transparent text-base font-medium rounded-full text-white bg-black">Projets</p>
                 </div>
-                <h2 className="text-center mt-2 text-2xl leading-8 font-extrabold tracking-tight text-black sm:text-5xl pb-20">
+                <h2 className="text-center mt-2 text-2xl leading-8 font-extrabold tracking-tight text-black sm:text-5xl pb-12">
                     Ils travaillent avec moi
                 </h2>
-                <div className="flex -my-8">
+                <div className="flex">
                     <ul className="flex items-center w-full py-8 overflow-scroll">
                         {
                             data.map(client => {

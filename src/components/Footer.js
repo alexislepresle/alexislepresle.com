@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="py-12 text-gray-600 bg-white xl:pb-24">
+        <footer className="py-24 max-w-5xl m-auto">
             <div className="flex flex-col items-center justify-between max-w-screen-xl px-6 mx-auto mt-8 space-y-4 lg:px-8 xl:px-4 md:flex-row lg:mt-12">
                 <nav className="flex flex-wrap justify-center space-x-6">
                     <a href="/cgu" className="mb-2 text-sm hover:text-indigo-600">Mentions légales</a>

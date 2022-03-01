@@ -42,9 +42,9 @@ const data = [
 const Expertises = () => {
     return (
         <section className="py-12" id="expertises">
-            <div className="max-w-5xl m-auto">
+            <div className="max-w-5xl m-auto py-24">
                 <div className="text-center">
-                    <div className="pb-44 pt-24 max-w-7xl m-auto px-4 sm:px-6 lg:px-8">
+                    <div className="pb-12 m-auto px-4 sm:px-6 lg:px-8">
                         <div className="flex items-center justify-center">
                             <p className="px-5 btn-title m-auto block py-2 border border-transparent text-base font-medium rounded-full text-white bg-black">Services</p>
                         </div>
@@ -57,20 +57,20 @@ const Expertises = () => {
                     </div>
                 </div >
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="-mt-20">
+                    <div>
                         <dl className="container space-y-10 md:space-y-0 md:gap-10 cursor-pointer">
                             {
                                 data.map((item, i) => {
                                     return (
-                                        <div className={(i % 2 != 0 ? "bg-white " : "border-gray-300 ") + "text-center relative rounded-xl shadow-full p-10 " + `box-${i + 1}`} style={(i % 2 === 0 ? { borderWidth: '1px' } : {})}>
+                                        <div className={(i % 2 != 0 ? "bg-white " : "border-gray-300 ") + "text-center relative rounded-xl shadow-full p-5 " + `box-${i + 1}`} style={(i % 2 === 0 ? { borderWidth: '1px' } : {})}>
                                             <p className="text-6xl py-10">{item.icon}</p>
-                                            <p className="px-12 mt-4 text-xl leading-6 text-gray-900 font-bold">{item.name}</p>
-                                            <p className="px-2 mt-2 text-base text-gray-400">
+                                            <p className="px-12 mt-4 text-xl leading-6 font-bold">{item.name}</p>
+                                            <p className="px-2 mt-2 text-base text-gray-700">
                                                 {item.description}
                                             </p>
                                             {
                                                 item.link ?
-                                                    <a href={item.link} rel="noreferrer" target="_blank" className="m-5 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-indigo-600 hover:bg-indigo-700">
+                                                    <a href={item.link} rel="noreferrer" target="_blank" className="btn-gradient m-5 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white hover:bg-indigo-700">
                                                         {item.textLink}
                                                         <span>
                                                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

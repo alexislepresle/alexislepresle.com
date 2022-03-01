@@ -7,7 +7,7 @@ const Header = () => {
 
     return (
         <div className="absolute top-0 py-5 z-40 w-full mx-auto px-4 sm:px-6 lg:px-8">
-            <nav className="relative flex items-center justify-between sm:h-10 max-w-7xl m-auto" aria-label="Global">
+            <nav className="relative flex items-center justify-between sm:h-10 max-w-5xl m-auto" aria-label="Global">
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                     <div className="flex items-center justify-between w-full md:w-auto">
                         <a href="/">
@@ -60,7 +60,7 @@ const Header = () => {
 
                 </div>
                 <div className="hidden md:block">
-                    <a href="/contact" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-indigo-600 hover:bg-indigo-700">
+                    <a href="/contact" className="btn-gradient inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white hover:bg-indigo-700">
                         Me Contacter
                         <span>
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

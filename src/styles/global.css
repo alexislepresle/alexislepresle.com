@@ -7,6 +7,10 @@ body{
     background-color: #F9F9F9;
 }
 
+.btn-gradient{
+    background: linear-gradient(96.04deg, #4F46E5 0%, #7D5EF7 100%);
+}
+
 .bg-gray-light{
     background: rgba(255, 255, 255, 0.5);
 }
@@ -79,7 +83,7 @@ body{
 .container {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 0.1fr 0.8fr; 
+    grid-template-rows: 1fr 0.1fr 0.5fr; 
     gap: 0px 0px; 
     grid-template-areas:
     "box-1 box-2 box-3" 

@@ -7,12 +7,12 @@ const Support = () => {
             <div className="flex justify-center items-center z-40 py-24">
                 <div className="max-w-3xl grid grid-cols-3 text-5xl skew-y-6">
                     <div className="col-span-2">
-                        <span className="block font-extrabold tracking-tight">Travaillons ensemble.</span>
+                        <span className="block font-extrabold tracking-tight text-black">Travaillons ensemble.</span>
                         <span className="block text-indigo-600 font-extrabold tracking-tight">Je vous répond dans les 24 heures !</span>
                         <p className="mt-4 text-lg text-gray-400">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. At commodo sit vivamus dolor diam adipiscing. Vitae dui quis purus aliquam vitae quam.
                         </p>
-                        <a href="/contact" rel="noreferrer" target="_blank" className="my-5 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-indigo-600 hover:bg-indigo-700">
+                        <a href="/contact" rel="noreferrer" target="_blank" className="btn-gradient my-5 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white hover:bg-indigo-700">
                             Prendre RDV
                             <span>
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

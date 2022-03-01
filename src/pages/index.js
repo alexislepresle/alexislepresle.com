@@ -49,7 +49,7 @@ const IndexPage = () => {
                     <a href="/contact" className="shadow m-5 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-black bg-white hover:bg-black hover:text-white">
                       Mon expertise
                     </a>
-                    <a href="/contact" className="m-5 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-indigo-600 hover:bg-indigo-700">
+                    <a href="/contact" className="btn-gradient m-5 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white hover:bg-indigo-700">
                       Me contacter
                       <span>
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
