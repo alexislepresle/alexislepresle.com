@@ -18,7 +18,7 @@ const IndexPage = () => {
     <>
       <Header />
       <div className="homepage-header bg-cover">
-        <div className="relative overflow-hidden h-screen flex items-center justify-center">
+        <div className="relative overflow-hidden h-screen flex items-center justify-center" style={{ minHeight: '750px' }}>
           <div className="max-w-7xl mx-auto">
             <div className="relative z-10 pb-8sm:pb-16 md:pb-20 lg:w-full">
               <main className="mx-auto px-4 sm:mt-12 sm:px-6 lg:px-8 flex flex-wrap items-center justify-center">
@@ -42,7 +42,7 @@ const IndexPage = () => {
                       </svg>
                     </span>
                   </h1>
-                  <p className="mx-auto my-5 text-lg text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl">
+                  <p className="mx-auto my-5 text-lg text-gray-700 sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl">
                     J'accompagne les e-commerçants ambitieux à développer et croitre leur boutique Shopify
                   </p>
                   <div className="flex align-center justify-center">
@@ -70,7 +70,6 @@ const IndexPage = () => {
       <APropos />
       <Support />
       <Blog />
-      <Contact />
       <Footer />
     </>
   )

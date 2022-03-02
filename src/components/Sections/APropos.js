@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const APropos = () => {
     return (
-        <div className="py-12 " id="about">
+        <section id="about">
             <div className="max-w-5xl mx-auto px-4 py-24 sm:px-6 lg:px-8">
                 <div className="mt-10">
                     <div className="space-y-10 md:space-y-0 flex items-center flex-wrap">
@@ -49,7 +49,7 @@ const APropos = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

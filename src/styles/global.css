@@ -7,8 +7,17 @@ body{
     background-color: #F9F9F9;
 }
 
+.gatsby-image-wrapper div{
+    background-color: rgb(0 0 0 / 0%) !important;
+}
+
 .btn-gradient{
     background: linear-gradient(96.04deg, #4F46E5 0%, #7D5EF7 100%);
+}
+
+.btn-transparent{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
 }
 
 .bg-gray-light{
@@ -27,7 +36,17 @@ body{
 }
 
 .homepage-header{
-    background-image: url("../images/MacBook\ Pro\ 14_\ -\ 3\ .png");
+    background-image: url("../images/bg-header.png");
+    background-position: center;
+}
+
+#expertises{
+    background-image: url("../images/bg-services.png");
+    background-position: center;
+}
+
+#about{
+    background-image: url("../images/bg-about.png");
     background-position: center;
 }
 
@@ -135,11 +154,11 @@ body{
 
 
 .homepage-header::before{
-    transform: skewY(2deg);
+    transform: skewY(3deg);
     content: "";
     position:absolute;
     width: 100%;
-    height: 50px;
+    height: 100px;
     bottom:0px;
     left:0px;
     z-index: 1;
@@ -151,3 +170,4 @@ body{
 #projects{
     background-color: #FFF;
 }
+
