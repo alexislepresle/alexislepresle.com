@@ -171,3 +171,28 @@ body{
     background-color: #FFF;
 }
 
+
+/**** Carousel ******/ 
+
+.carousel-slider{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.control-dots{
+    position: relative !important;
+}
+
+.control-dots .selected{
+    background: #4F46E5 !important; 
+    box-shadow: none !important;
+}
+
+.dot {
+    background: rgba(79, 70, 229, 0.3) !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    width: 15px !important;
+    height: 15px !important;
+}
