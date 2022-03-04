@@ -25,7 +25,7 @@ const IndexPage = () => {
                 <div className="text-center">
                   <div className="bg-white rounded-full me-img">
                     <StaticImage
-                      src="../images/image-removebg-preview (1) 2 (1).png"
+                      src="../images/me-apple-emoji.png"
                       width={250}
                       quality={95}
                       formats={["auto", "webp", "avif"]}
