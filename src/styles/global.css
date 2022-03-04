@@ -178,6 +178,47 @@ body{
 
 
 /**** Carousel ******/ 
+.project-carousel .carousel .slider{
+    width: 100% !important;
+}
+
+@media (min-width: 450px) {
+    .project-carousel .carousel .slider{
+        width: 70% !important;
+    }
+}
+
+@media (min-width: 550px) {
+    .project-carousel .carousel .slider{
+        width: 60% !important;
+    }
+}
+
+@media (min-width: 650px) {
+    .project-carousel .carousel .slider{
+        width: 47% !important;
+    }
+}
+
+@media (min-width: 750px) {
+    .project-carousel .carousel .slider{
+        width: 40% !important;
+    }
+}
+
+@media (min-width: 850px) {
+    .project-carousel .carousel .slider{
+        width: 35% !important;
+    }
+}
+
+@media (min-width: 950px) {
+    .project-carousel .carousel .slider{
+        width: 30% !important;
+    }
+}
+
+
 
 .carousel-slider{
     width: 100%;
@@ -202,3 +243,7 @@ body{
     width: 15px !important;
     height: 15px !important;
 }
+
+
+
+

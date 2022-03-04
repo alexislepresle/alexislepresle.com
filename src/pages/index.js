@@ -46,7 +46,7 @@ const IndexPage = () => {
                     J'accompagne les e-commerçants ambitieux à développer et croitre leur boutique Shopify
                   </p>
                   <div className="flex align-center justify-center">
-                    <a href="/contact" className="shadow m-5 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-black bg-white hover:bg-black hover:text-white">
+                    <a href="/#expertises" className="shadow m-5 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-black bg-white hover:bg-black hover:text-white">
                       Mon expertise
                     </a>
                     <a href="/contact" className="btn-gradient m-5 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white hover:bg-indigo-700">

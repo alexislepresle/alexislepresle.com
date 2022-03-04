@@ -28,7 +28,7 @@ const data = [
 const Blog = () => {
     return (
         <section className="relative bg-white" id="blog">
-            <div className="py-24 max-w-5xl m-auto px-4 sm:px-6 lg:px-8">
+            <div className="py-20 md:py-24 max-w-5xl m-auto px-4 sm:px-6 lg:px-8">
                 <div>
                     <div>
                         <div>

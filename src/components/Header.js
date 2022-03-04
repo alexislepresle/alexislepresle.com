@@ -86,8 +86,8 @@ const Header = () => {
                     <a href="/#expertises" className="my-6">Expertise</a>
                     <a href="/#projects" className="my-6">Mes Projets</a>
                     <a href="/#about" className="my-6">À Propos</a>
-                    <a href="/#about" className="my-6">Témoignages</a>
-                    <a href="/#about" className="my-6">Blog</a>
+                    <a href="/#testimonials" className="my-6">Témoignages</a>
+                    <a href="/#blog" className="my-6">Blog</a>
                     <a href="/contact" className="my-6 flex items-center">
                         Me Contacter
                         <svg className="mx-2" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">

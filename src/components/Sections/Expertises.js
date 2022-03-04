@@ -44,7 +44,7 @@ const data = [
 const Expertises = () => {
     return (
         <section className="py-12 bg-cover" id="expertises">
-            <div className="max-w-5xl m-auto py-24">
+            <div className="max-w-5xl m-auto py-20 md:py-24 ">
                 <div className="text-center">
                     <div className="pb-12 m-auto px-4 sm:px-6 lg:px-8">
                         <div className="flex items-center justify-center">
@@ -89,7 +89,14 @@ const Expertises = () => {
                         </dl>
                     </div>
                     <div className="block lg:hidden">
-                        <Carousel showArrows={false} autoPlay={true} showStatus={false} infiniteLoop={true}>
+                        <Carousel
+                            showArrows={false}
+                            autoPlay={true}
+                            showStatus={false}
+                            infiniteLoop={true}
+                            swipeable={true}
+                            emulateTouch={true}
+                        >
                             {
                                 data.map(item => {
                                     return (
