@@ -55,6 +55,25 @@ body{
     background-position: center;
 }
 
+@media (max-width: 900px) {
+
+    .homepage-header{
+        background-image: url("../images/bg-header-mobile.png");
+        background-position: center;
+    }
+    
+    #expertises{
+        background-image: url("../images/bg-services-mobile.png");
+        background-position: center;
+    }
+    
+    #about{
+        background-image: url("../images/bg-about-mobile.png");
+        background-position: center;
+    }
+}
+
+
 .me-img{
     width: 190px;
     height: 190px;
@@ -180,6 +199,12 @@ body{
 /**** Carousel ******/ 
 .project-carousel .carousel .slider{
     width: 100% !important;
+}
+
+@media (min-width: 350px) {
+    .project-carousel .carousel .slider{
+        width: 80% !important;
+    }
 }
 
 @media (min-width: 450px) {
