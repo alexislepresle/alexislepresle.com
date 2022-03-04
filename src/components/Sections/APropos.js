@@ -7,7 +7,7 @@ const APropos = () => {
             <div className="max-w-5xl mx-auto px-4 py-24 sm:px-6 lg:px-8">
                 <div className="mt-10">
                     <div className="space-y-10 md:space-y-0 flex items-center flex-wrap">
-                        <div className="md:flex-1">
+                        <div className="md:flex-1 max-w-xl m-auto">
                             <StaticImage
                                 src="../../images/about3.png"
                                 width={1000}
@@ -16,16 +16,16 @@ const APropos = () => {
                                 alt="A propos Alexis Lepresle"
                             />
                         </div>
-                        <div className="md:flex-1 mt-2 md:ml-16">
-                            <div className="flex items-left justify-left">
-                                <p className="ml-0 mb-4 btn-title m-auto block px-5 py-2 border border-transparent text-base font-medium rounded-full text-white bg-black">À propos</p>
+                        <div className="lg:flex-1 mt-2 md:ml-16">
+                            <div className="flex lg:items-left lg:justify-left justify-center">
+                                <p className="m-auto lg:ml-0 mb-4 btn-title block px-5 py-2 border border-transparent text-base font-medium rounded-full text-white bg-black">À propos</p>
                             </div>
-                            <h2 className="text-5xl leading-8 font-extrabold tracking-tight text-black sm:text-4xl">
+                            <h2 className="text-black lg:text-left text-center mt-2 text-4xl leading-8 font-extrabold tracking-tight sm:text-5xl pb-12">
                                 Qui suis-je ?
                             </h2>
                             <p className="mt-4 text-lg text-gray-700">
                                 J'ai commencé ma carrière de <b>développeur web freelance </b>en parallèle de mes études en 2017.
-                                Au fil des années, je me suis <b>spécialiser dans le développement Web </b> et le langage <b>JavaScript</b>. Puis, plus particulièrement
+                                Au fil des années, je me suis <b>spécialisé dans le développement Web </b> et le langage <b>JavaScript</b>. Puis, plus particulièrement
                                 dans les librairies <b>React JS</b> et <b>Node JS</b>.
                             </p>
                             <p className="mt-4 text-lg text-gray-700">

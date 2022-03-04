@@ -4,11 +4,11 @@ import { StaticImage } from "gatsby-plugin-image"
 const Support = () => {
     return (
         <section className="contact-me bg-indigo-100 relative">
-            <div className="flex justify-center items-center z-40 py-24">
-                <div className="max-w-3xl grid grid-cols-3 text-5xl skew-y-6">
+            <div className="flex justify-center items-center z-40 py-24 relative">
+                <div className="max-w-3xl flex flex-col-reverse lg:grid grid-cols-3 text-5xl skew-y-6 mx-auto px-4 py-24 sm:px-6 lg:px-8">
                     <div className="col-span-2">
                         <span className="block font-extrabold tracking-tight text-black">Travaillons ensemble.</span>
-                        <span className="block text-indigo-600 font-extrabold tracking-tight">Je vous répond dans les 24 heures !</span>
+                        <span className="block text-indigo-600 font-extrabold tracking-tight">Je vous réponds dans les 24 heures !</span>
                         <p className="mt-4 text-lg text-gray-400">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. At commodo sit vivamus dolor diam adipiscing. Vitae dui quis purus aliquam vitae quam.
                         </p>
@@ -21,13 +21,13 @@ const Support = () => {
                             </span>
                         </a>
                     </div>
-                    <div class="col-span-1 flex items-center justify-center">
+                    <div class="col-span-1 flex lg:items-center lg:justify-center">
                         <StaticImage
                             src="../images/image-removebg-preview (1) 2 (1).png"
                             width={250}
                             quality={95}
                             formats={["auto", "webp", "avif"]}
-                            alt="A Gatsby astronaut"
+                            alt="alexis lepresle - emoji"
                             className="md:w-52 w-42"
                         />
                     </div>

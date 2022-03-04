@@ -42,12 +42,12 @@ const Blog = () => {
                 <div className={""/*"opacity-40"*/}>
                     <div>
                         <div>
-                            <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
+                            <dl className="space-y-10 md:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:gap-y-10">
                                 {
                                     data.map(item => {
                                         return (
                                             <a href="/#">
-                                                <div className="relative hover:bg-gray-100">
+                                                <div className="relative hover:bg-gray-100 max-w-2xl m-auto">
                                                     <div className="rounded-xl">
                                                         <StaticImage
                                                             src={"../../images/IMG_8921.jpg"}
@@ -75,7 +75,7 @@ const Blog = () => {
                                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                                                         </p>
                                                     </div>
-                                                    <a href="/contact" className="btn-gradient m-5 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white hover:bg-indigo-700">
+                                                    <a href="/contact" className="btn-gradient lg:m-5 mb-5 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white hover:bg-indigo-700">
                                                         Lire la suite
                                                         <span>
                                                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

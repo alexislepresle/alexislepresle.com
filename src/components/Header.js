@@ -9,7 +9,7 @@ const Header = () => {
         <div className="absolute top-0 py-5 z-40 w-full mx-auto px-4 sm:px-6 lg:px-8">
             <nav className="relative flex items-center justify-between sm:h-10 max-w-5xl m-auto" aria-label="Global">
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-                    <div className="flex items-center justify-between w-full md:w-auto">
+                    <div className="flex items-center justify-between w-full lg:w-auto">
                         <a href="/">
                             <StaticImage
                                 src="../images/logo.png"
@@ -20,25 +20,17 @@ const Header = () => {
                                 className="h-8 w-auto sm:h-10"
                             />
                         </a>
-                        <div className={open ? 'hidden' : 'block' + (" -mr-2 flex items-center md:hidden")}>
-                            <button onClick={() => setOpen(!open)} type="button" className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+                        <div className={open ? 'hidden' : 'block' + (" -mr-2 flex items-center lg:hidden")}>
+                            <button onClick={() => setOpen(!open)} type="button" className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
                                 <span className="sr-only">Open main menu</span>
                                 <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                                 </svg>
                             </button>
                         </div>
-                        <div className={open ? 'block md:hidden' : 'hidden' + (" -mr-2 flex items-center md:hidden")}>
-                            <button onClick={() => setOpen(!open)} type="button" className="sd:hidden bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                                <span className="sr-only">Close main menu</span>
-                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                                </svg>
-                            </button>
-                        </div>
                     </div>
                 </div>
-                <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                <div className="hidden lg:block md:ml-10 md:pr-4 md:space-x-8">
                     {
                         typeof window !== `undefined` && window.location.pathname === "/" ?
                             <>
@@ -59,7 +51,7 @@ const Header = () => {
                     }
 
                 </div>
-                <div className="hidden md:block">
+                <div className="hidden lg:block">
                     <a href="/contact" className="btn-gradient inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white hover:bg-indigo-700">
                         Me Contacter
                         <span>
@@ -70,11 +62,39 @@ const Header = () => {
                     </a>
                 </div>
             </nav>
-            <div className={(open ? 'active side-nav ' : 'side-nav ') + " block md:hidden md:ml-10 md:pr-4 md:space-x-8"}>
-                <a href="/#expertises" className="font-medium text-gray-500 hover:text-gray-900">Mes Expertises</a>
-                <a href="/#projects" className="font-medium text-gray-500 hover:text-gray-900">Mes Projets</a>
-                <a href="/#about" className="font-medium text-gray-500 hover:text-gray-900">À Propos</a>
-                <a href="/contact" className="font-medium text-indigo-600 hover:text-indigo-500">Me Contacter</a>
+            <div className={(open ? 'active side-nav ' : 'side-nav ') + " block lg:hidden bg-indigo-gradient text-white"}>
+                <div className="flex items-center justify-between px-10 pt-24">
+                    <div className="text-md leading-none">
+                        <p>
+                            Alexis
+                        </p>
+                        <p>
+                            Lepresle
+                        </p>
+                    </div>
+
+                    <div className={open ? 'block lg:hidden' : 'hidden' + (" -mr-2 flex items-center lg:hidden bg-white")}>
+                        <button onClick={() => setOpen(!open)} type="button" className="lg:hidden text-indigo-600 rounded-lg p-2 inline-flex items-center justify-center bg-white ">
+                            <span className="sr-only">Close main menu</span>
+                            <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div className="px-10 pt-10 flex flex-col  md:text-4xl text-3xl text-gray-500 hover:text-gray-900">
+                    <a href="/#expertises" className="my-6">Expertise</a>
+                    <a href="/#projects" className="my-6">Mes Projets</a>
+                    <a href="/#about" className="my-6">À Propos</a>
+                    <a href="/#about" className="my-6">Témoignages</a>
+                    <a href="/#about" className="my-6">Blog</a>
+                    <a href="/contact" className="my-6 flex items-center">
+                        Me Contacter
+                        <svg className="mx-2" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.7027 2C15.7027 1.33578 15.1642 0.797326 14.5 0.797325H3.67592C3.0117 0.797325 2.47324 1.33578 2.47324 2C2.47324 2.66422 3.0117 3.20268 3.67592 3.20268H13.2973V12.8241C13.2973 13.4883 13.8358 14.0268 14.5 14.0268C15.1642 14.0268 15.7027 13.4883 15.7027 12.8241V2ZM1.85042 16.3504L15.3504 2.85042L13.6496 1.14958L0.14958 14.6496L1.85042 16.3504Z" fill="white" />
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
     );

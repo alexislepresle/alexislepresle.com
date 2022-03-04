@@ -31,11 +31,13 @@ const Testimonials = () => {
 
     return (
         <section id="testimonials">
-            <div className="text-white max-w-5xl mx-auto py-24">
-                <div className="flex items-center justify-center">
+            <div className="text-white py-24 max-w-5xl m-auto px-4 sm:px-6 lg:px-8 z-50	relative">
+                <div className="flex items-center justify-center z-100">
                     <p className="text-white px-5 mb-5 m-auto block py-2 border border-transparent text-base font-medium rounded-full bg-gray-light">Témoignages</p>
                 </div>
-                <h2 class="text-center text-5xl	font-semibold mb-10">Ce qu’ils disent de moi</h2>
+                <h2 className="text-center mt-2 text-4xl leading-8 font-extrabold tracking-tight sm:text-5xl pb-12">
+                    Ce qu’ils disent de moi
+                </h2>
                 <div className="grid grid-cols-4 md:grid-cols-6 gap-4">
                     <div className="md:col-start-2 col-start-0 col-span-4">
                         <div className="grid grid-cols-6 h-64 md:h-40">
