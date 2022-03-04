@@ -63,7 +63,7 @@ const Header = () => {
                 </div>
             </nav>
             <div className={(open ? 'active side-nav ' : 'side-nav ') + " block lg:hidden bg-indigo-gradient text-white"}>
-                <div className="flex items-center justify-between px-10 pt-24">
+                <div className="flex items-center justify-between px-10 pt-12  md:pt-24">
                     <div className="text-md leading-none">
                         <p>
                             Alexis
@@ -73,16 +73,16 @@ const Header = () => {
                         </p>
                     </div>
 
-                    <div className={open ? 'block lg:hidden' : 'hidden' + (" -mr-2 flex items-center lg:hidden bg-white")}>
+                    <div className={open ? 'block lg:hidden' : 'hidden' + (" -mr-2 flex items-center lg:hidden bg-white hover:bg-gray-200")}>
                         <button onClick={() => setOpen(!open)} type="button" className="lg:hidden text-indigo-600 rounded-lg p-2 inline-flex items-center justify-center bg-white ">
                             <span className="sr-only">Close main menu</span>
-                            <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <svg className="h-6 w-6 hover:w-10  hover:h-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </button>
                     </div>
                 </div>
-                <div className="px-10 pt-10 flex flex-col  md:text-4xl text-3xl text-gray-500 hover:text-gray-900">
+                <div className="px-10 pt-10 flex flex-col  md:text-4xl text-3xl text-gray-500 hover:text-gray-900" onClick={() => setOpen(!open)} >
                     <a href="/#expertises" className="my-6">Expertise</a>
                     <a href="/#projects" className="my-6">Mes Projets</a>
                     <a href="/#about" className="my-6">À Propos</a>

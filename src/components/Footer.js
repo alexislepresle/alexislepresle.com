@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="flex flex-col items-center justify-between max-w-screen-xl px-6 mx-auto space-y-4 lg:px-8 xl:px-4 md:flex-row ">
                 <div className="space-y-4 text-sm text-center md:space-y-1 md:text-left my-2">
                     <p>&copy; {new Date().getFullYear()} Tous droits réservés | Alexis Lepresle</p>
-                    <a href="mailto:contact@alexislepresle.com" className="mt-1 hover:text-indigo-600">contact@alexislepresle.com</a>
+                    <a href="mailto:contact@alexislepresle.com" className="mt-2 hover:text-indigo-600">contact@alexislepresle.com</a>
                 </div>
             </div>
         </footer>

@@ -72,11 +72,11 @@ const Projects = () => {
                     Ils travaillent avec moi
                 </h2>
                 <div className="flex">
-                    <ul className="items-center w-full py-8 overflow-scroll flex">
+                    <ul className="items-center w-full py-8 overflow-y-auto	 flex">
                         {
                             data.map(client => {
                                 return (
-                                    <li key={client.client} className="px-3 md:px-4 flex-none shadow-2xl">
+                                    <li key={client.client} className="px-3 md:px-4 flex-none">
                                         <figure className="bg-cover bg-center shadow-lg rounded-xl flex-none w-72 h-96 md:w-xl bg-indigo-600" style={{ backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%), url(${client.bg})` }}>
                                             <figcaption className="flex items-center flex-col justify-center space-x-4 p-6 h-96 md:px-10 md:py-6 bg-gradient-to-br rounded-xl leading-6 font-semibold text-white">
                                                 {

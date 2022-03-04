@@ -9,10 +9,7 @@ const Support = () => {
                     <div className="col-span-2">
                         <span className="block font-extrabold tracking-tight text-black">Travaillons ensemble.</span>
                         <span className="block text-indigo-600 font-extrabold tracking-tight">Je vous réponds dans les 24 heures !</span>
-                        <p className="mt-4 text-lg text-gray-400">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. At commodo sit vivamus dolor diam adipiscing. Vitae dui quis purus aliquam vitae quam.
-                        </p>
-                        <a href="/contact" rel="noreferrer" target="_blank" className="btn-gradient my-5 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white hover:bg-indigo-700">
+                        <a href="/contact" rel="noreferrer" target="_blank" className="btn-gradient my-5 flex md:inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white hover:bg-indigo-700">
                             Prendre RDV
                             <span>
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,7 +18,7 @@ const Support = () => {
                             </span>
                         </a>
                     </div>
-                    <div class="col-span-1 flex lg:items-center lg:justify-center">
+                    <div class="col-span-1 flex items-center justify-center">
                         <StaticImage
                             src="../images/image-removebg-preview (1) 2 (1).png"
                             width={250}
