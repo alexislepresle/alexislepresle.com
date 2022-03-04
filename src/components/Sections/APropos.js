@@ -9,7 +9,7 @@ const APropos = () => {
                     <div className="space-y-10 md:space-y-0 flex items-center flex-wrap">
                         <div className="md:flex-1 max-w-xl m-auto">
                             <StaticImage
-                                src="../../images/about3.png"
+                                src="../../images/about.png"
                                 width={1000}
                                 quality={95}
                                 formats={["auto", "webp", "avif"]}

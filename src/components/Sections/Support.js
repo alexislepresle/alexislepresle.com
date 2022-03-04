@@ -20,7 +20,7 @@ const Support = () => {
                     </div>
                     <div class="col-span-1 flex items-center justify-center">
                         <StaticImage
-                            src="../images/image-removebg-preview (1) 2 (1).png"
+                            src="../images/me-apple-emoji.png"
                             width={250}
                             quality={95}
                             formats={["auto", "webp", "avif"]}
