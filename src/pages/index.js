@@ -4,11 +4,11 @@ import Header from "../components/Header.js"
 import { StaticImage } from "gatsby-plugin-image"
 import Expertises from "../components/Sections/Expertises.js"
 import APropos from "../components/Sections/APropos"
-import Support from "../components/Sections/Support"
+import Contact from "../components/Sections/Contact"
 import Projects from "../components/Sections/Projects.js"
 import Testimonials from "../components/Sections/Testimonials.js"
 import Blog from "../components/Sections/Blog.js"
-import Contact from "../components/Sections/Contact.js"
+
 // markup
 const IndexPage = () => {
 
@@ -71,7 +71,7 @@ const IndexPage = () => {
       <Expertises />
       <Testimonials />
       <APropos />
-      <Support />
+      <Contact />
       <Blog />
       <Footer />
     </>
