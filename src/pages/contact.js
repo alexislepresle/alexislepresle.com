@@ -1,13 +1,13 @@
 import * as React from "react"
 import Footer from "../components/Footer.js"
-import Header from "../components/Header.js"
+import Navbar from "../components/Navbar.js"
 import { Widget } from '@typeform/embed-react'
 
 // markup
 const IndexPage = () => {
     return (
         <>
-            <Header />
+            <Navbar />
             <Widget id="uAtROmtw" style={{ height: '100vh' }} />
             <Footer />
         </>

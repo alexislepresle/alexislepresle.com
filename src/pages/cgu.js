@@ -1,12 +1,12 @@
 import * as React from "react"
 import Footer from "../components/Footer.js"
-import Header from "../components/Header.js"
+import Navbar from "../components/Navbar.js"
 
 // markup
 const IndexPage = () => {
     return (
         <>
-            <Header />
+            <Navbar />
             <div class="max-w-4xl mx-auto px-4 sm:px-6 xl:max-w-8xl xl:px-0">
                 <div class="px-4 py-14 sm:py-16 lg:py-20">
                     <div class="prose prose-sm max-w-[37.5rem] mx-auto">

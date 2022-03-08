@@ -60,16 +60,19 @@ body{
     .homepage-header{
         background-image: url("../images/bg-header-mobile.png");
         background-position: center;
+        background-size: cover;
     }
     
     #expertises{
         background-image: url("../images/bg-services-mobile.png");
         background-position: center;
+        background-size: cover;
     }
     
     #about{
         background-image: url("../images/bg-about-mobile.png");
         background-position: center;
+        background-size: cover;
     }
 }
 
@@ -177,7 +180,7 @@ body{
         background-color: #EBE9F8;
         transform-origin: left;
     }
-    .homepage-header::before{
+    .homepage-header::after{
         transform: skewY(3deg);
         content: "";
         position:absolute;
@@ -273,3 +276,19 @@ body{
 
 
 
+/***** Makdown style ****/ 
+.blogPost-content p{
+    margin-bottom: 1rem;
+}
+
+.blogPost-content h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.blogPost-content h3{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}

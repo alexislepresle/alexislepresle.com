@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StaticImage } from "gatsby-plugin-image"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-const Header = () => {
+const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     return (
@@ -100,4 +100,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Navbar;
