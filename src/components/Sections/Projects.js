@@ -79,7 +79,6 @@ const Projects = () => {
                         showThumbs={false}
                         showArrows={false}
                         showStatus={false}
-                        selectedItem={3}
                         showIndicators={false}
                         swipeable={true}
                         emulateTouch={true}
