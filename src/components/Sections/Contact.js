@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const Support = () => {
     return (
         <section className="contact-me bg-indigo-100 relative">
-            <div className="flex justify-center items-center z-40 py-20 md:py-24  relative">
+            <div className="flex justify-center items-center z-40 py-14 md:py-14  relative">
                 <div className="max-w-3xl flex flex-col-reverse lg:grid grid-cols-3 skew-y-6 mx-auto px-4 py-24 sm:px-6 lg:px-8">
                     <div className="col-span-2 text-center md:text-left">
                         <span className="block text-5xl font-extrabold tracking-tight text-black">Travaillons ensemble.</span>

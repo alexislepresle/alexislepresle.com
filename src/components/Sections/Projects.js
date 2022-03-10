@@ -68,7 +68,7 @@ const Projects = () => {
                 <div className="flex items-center justify-center">
                     <p className="btn-title m-auto block px-5 py-2 border border-transparent text-base font-medium rounded-full text-white bg-black">Projets</p>
                 </div>
-                <h2 className="text-center mt-2 text-4xl leading-8 font-extrabold tracking-tight text-black sm:text-5xl pb-12 max-w-xs m-auto">
+                <h2 className="text-center mt-2 text-4xl leading-8 font-extrabold tracking-tight text-black sm:text-5xl pb-12 max-w-xl m-auto">
                     Ils travaillent avec moi
                 </h2>
                 <div >

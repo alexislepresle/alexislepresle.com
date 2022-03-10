@@ -37,7 +37,7 @@ const Blog = () => {
                                     data.map(item => {
                                         return (
                                             <a href="/#">
-                                                <div className="relative hover:bg-gray-100 max-w-2xl m-auto">
+                                                <div className="relative hover:bg-gray-100 max-w-2xl m-auto p-4 rounded-xl duration-1000">
                                                     <div className="rounded-xl">
                                                         <StaticImage
                                                             src={"../../images/IMG_8921.jpg"}
@@ -52,12 +52,12 @@ const Blog = () => {
                                                         />
                                                     </div>
                                                     <div className="py-5">
-                                                        <div className="flex items-center justify-center">
-                                                            <div className="flex items-left justify-left px-2">
-                                                                <p className="ml-0 mb-4 btn-title m-auto block px-3 py-1 text-base font-medium rounded-full text-white bg-black"> {item.tag}</p>
+                                                        <div className="flex items-center">
+                                                            <div className="flex items-left justify-left">
+                                                                <p className="ml-0 mb-4 btn-title m-auto block px-2 py-1 text-base font-medium rounded-full text-white bg-black"> {item.tag}</p>
                                                             </div>
                                                             <div className="flex items-left justify-left px-2">
-                                                                <p className="ml-0 mb-4 btn-title m-auto block px-3 py-1 text-base font-medium rounded-full text-white bg-black"> {item.time}</p>
+                                                                <p className="ml-0 mb-4 btn-title m-auto block px-2 py-1 text-base font-medium rounded-full text-white bg-black"> {item.time}</p>
                                                             </div>
                                                         </div>
                                                         <p className="mt-4 text-xl leading-6 font-bold text-black">{item.name}</p>

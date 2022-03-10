@@ -18,7 +18,7 @@ const IndexPage = () => {
     <>
       <Navbar />
       <div className="bg-cover">
-        <div className="homepage-header relative overflow-hidden h-screen flex items-center justify-center" style={{ minHeight: '750px' }}>
+        <div className="homepage-header relative overflow-hidden h-screen flex items-center justify-center pb-10" style={{ minHeight: '750px' }}>
           <div className="max-w-7xl mx-auto">
             <div className="relative z-10 pb-8sm:pb-16 md:pb-20 lg:w-full">
               <main className="mx-auto px-4 sm:mt-12 sm:px-6 lg:px-8 flex flex-wrap items-center justify-center">

@@ -35,7 +35,7 @@ const Testimonials = () => {
                 <div className="flex items-center justify-center z-100">
                     <p className="text-white px-5 mb-5 m-auto block py-2 border border-transparent text-base font-medium rounded-full bg-gray-light">Témoignages</p>
                 </div>
-                <h2 className="text-center mt-2 text-4xl leading-8 font-extrabold tracking-tight sm:text-5xl pb-12 max-w-xs m-auto">
+                <h2 className="text-center mt-2 text-4xl leading-8 font-extrabold tracking-tight sm:text-5xl pb-12 max-w-xl m-auto">
                     Ce qu’ils disent de moi
                 </h2>
                 <div className="grid grid-cols-4 md:grid-cols-6 gap-4">
