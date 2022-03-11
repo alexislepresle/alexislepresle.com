@@ -2,6 +2,11 @@ import React, { useState, useEffect } from 'react';
 
 const data = [
     {
+        name: "Fabien",
+        role: "Le Petit Biscuit Français",
+        testimonial: "Nous avons contacté Alexis pour développer un module de produit personnalisé. Alexis est un vrai développeur, qui ne sous-traite pas son travail et qui maîtrise son sujet. Les délais sont toujours respectés. Nous lui accordons depuis toute notre confiance. D'ailleurs, il s'occupe aujourd'hui de la maintenance du site à l'année. Vous l'aurez compris, nous recommandons fortement Alexis."
+    },
+    {
         name: "Emilie",
         role: "Domaine de Poujol",
         testimonial: "Alexis est un super développeur Shopify! Nous avions initialement engagé un autre développeur pour notre site d’e-commerce. Le travail délivré était très peu qualitatif. Alexis a extrêmement bien rattrapé le coup! Il est super réactif, professionnel et impliqué. Je retravaillerai avec lui sur des futurs projets sans hésiter, et le recommande vivement :)"
@@ -22,7 +27,7 @@ const Testimonials = () => {
                 return setCurrentTestimonial(0);
             }
             return setCurrentTestimonial(currentTestimonial + 1);
-        }, 2000);
+        }, 4000);
 
         return () => {
             clearInterval(interval);

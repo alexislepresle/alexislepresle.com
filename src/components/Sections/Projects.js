@@ -12,7 +12,7 @@ import logoBlackpines from "../../images/logo-blackpines.png"
 import bgErevan from "../../images/bg-erevan.jpeg"
 import logoErevan from "../../images/logo-erevan.png"
 import bgPoujol from "../../images/bg-poujol.jpeg"
-import logoDJ from "../../images/logo-DJ.png"
+import logoPoujol from "../../images/logo-poujol.png"
 import bgEL from "../../images/bg-escargot-leandre.jpg"
 import logoEL from "../../images/logo-EL.png"
 
@@ -57,7 +57,7 @@ const data = [
         client: "Le Domaine de Poujol",
         link: "https://domainedupoujol.com/",
         bg: bgPoujol,
-        logo: logoDJ
+        logo: logoPoujol
     }
 ]
 
