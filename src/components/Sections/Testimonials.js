@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const data = [
     {
-        name: "Fabien",
+        name: "Aurélie",
         role: "Le Petit Biscuit Français",
         testimonial: "Nous avons contacté Alexis pour développer un module de produit personnalisé. Alexis est un vrai développeur, qui ne sous-traite pas son travail et qui maîtrise son sujet. Les délais sont toujours respectés. Nous lui accordons depuis toute notre confiance. D'ailleurs, il s'occupe aujourd'hui de la maintenance du site à l'année. Vous l'aurez compris, nous recommandons fortement Alexis."
     },
