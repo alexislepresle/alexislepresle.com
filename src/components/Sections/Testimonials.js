@@ -106,6 +106,7 @@ const Testimonials = () => {
                                     </span>
                                 </p>
                                 <p className="text-center text-lg">{data[currentTestimonial] && data[currentTestimonial].testimonial}</p>
+                                <p className="text-center block md:hidden font-bold font-gray-400 pt-10">{data[currentTestimonial].name} - {data[currentTestimonial].role}</p>
                             </div>
                         </div>
                     </div>
@@ -115,20 +116,26 @@ const Testimonials = () => {
                         data.map((testimonial, i) => {
                             return (
                                 <div
-                                    className={(i === currentTestimonial ? "pl-2 pr-6 rounded-full shadow-xl bg-gray-light " : " ") + " mx-2 pl-2 pr-6 py-2 cursor-pointer"}
+                                    className={(i === currentTestimonial ? "pl-2 pr-2 sm:pr-6 rounded-full shadow-xl bg-gray-light " : " ") + " mx-2 pl-2 py-2 cursor-pointer"}
                                     onClick={() => setCurrentTestimonial(i)}
                                     onKeyDown={() => setCurrentTestimonial(i)}
                                     role="button"
                                     tabIndex={0}
                                 >
                                     <div className="flex items-center justify-center ">
-                                        <div className="bg-white rounded-full p-3 mr-2">
+                                        <div className="bg-white rounded-full p-2 sm:p-3 mr-0 sm:mr-2">
                                             <img className="w-6 h-6" src={testimonial.icon} alt={testimonial.name} />
                                         </div>
-                                        <div>
-                                            <p className="font-bold">{testimonial.name}</p>
-                                            <p className="font-light font-gray-400 text-sm opacity-50">{testimonial.role}</p>
+                                        <div className="sm:block hidden">
+                                            {i === currentTestimonial ?
+                                                <div className="sm:block hidden">
+                                                    <p className="font-bold">{testimonial.name}</p>
+                                                    <p className="font-light font-gray-400 text-sm opacity-50">{testimonial.role}</p>
+                                                </div> :
+                                                <></>
+                                            }
                                         </div>
+
                                     </div>
                                 </div>
                             )
