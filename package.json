@@ -1,12 +1,9 @@
 {
   "name": "alexislepresle",
   "version": "1.0.0",
+  "description": "Alexis Lepresle — Expert Shopify ",
+  "author": "Alexis Lepresle <contact@alexislepresle.com>",
   "private": false,
-  "description": "alexislepresle",
-  "author": "alexislepresle",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
@@ -19,35 +16,33 @@
     "@mdx-js/react": "^1.6.22",
     "@splidejs/react-splide": "^0.6.20",
     "@splidejs/splide": "^3.6.12",
-    "@typeform/embed-react": "^1.6.0",
-    "gatsby": "^3.13.1",
-    "gatsby-plugin-google-analytics": "^3.14.0",
+    "@typeform/embed-react": "^1.13.0",
+    "gatsby": "^4.10.0",
+    "gatsby-plugin-google-analytics": "^4.10.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-image": "^1.14.0",
-    "gatsby-plugin-manifest": "^3.14.0",
-    "gatsby-plugin-mdx": "^2.14.0",
+    "gatsby-plugin-image": "^2.10.0",
+    "gatsby-plugin-manifest": "^4.10.0",
+    "gatsby-plugin-mdx": "^3.10.0",
     "gatsby-plugin-purgecss": "^6.1.1",
-    "gatsby-plugin-react-helmet": "^4.14.0",
-    "gatsby-plugin-sass": "^4.14.0",
-    "gatsby-plugin-sharp": "^3.14.0",
-    "gatsby-plugin-sitemap": "^4.10.0",
+    "gatsby-plugin-react-helmet": "^5.10.0",
+    "gatsby-plugin-sass": "^5.10.0",
+    "gatsby-plugin-sharp": "^4.10.0",
+    "gatsby-plugin-sitemap": "^5.10.0",
     "gatsby-remark-relative-images": "^2.0.2",
-    "gatsby-source-filesystem": "^3.14.0",
-    "gatsby-transformer-remark": "^4.11.0",
-    "gatsby-transformer-sharp": "^3.14.0",
+    "gatsby-source-filesystem": "^4.10.0",
+    "gatsby-transformer-remark": "^5.10.0",
+    "gatsby-transformer-sharp": "^4.10.0",
     "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "react-responsive-carousel": "^3.2.23",
-    "sass": "^1.42.1",
-    "swiper": "^8.0.7"
+    "sass": "^1.49.9"
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.6",
-    "gatsby-plugin-postcss": "^4.14.0",
-    "postcss": "^8.3.8",
-    "tailwindcss": "^2.2.16"
+    "autoprefixer": "^10.4.4",
+    "gatsby-plugin-postcss": "^5.10.0",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
   }
 }

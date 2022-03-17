@@ -1,12 +1,12 @@
 import * as React from "react"
-import Footer from "../components/Footer.js"
-import Navbar from "../components/Navbar.js"
+import Layout from "../components/Layout.js"
+import Seo from "../components/Seo.js"
 
 // markup
 const IndexPage = () => {
     return (
-        <>
-            <Navbar />
+        <Layout>
+            <Seo title={"Mentions légales"} />
             <div class="max-w-4xl mx-auto px-4 sm:px-6 xl:max-w-8xl xl:px-0">
                 <div class="px-4 py-14 sm:py-16 lg:py-20">
                     <div class="prose prose-sm max-w-[37.5rem] mx-auto">
@@ -27,8 +27,7 @@ const IndexPage = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
-        </>
+        </Layout>
     )
 }
 

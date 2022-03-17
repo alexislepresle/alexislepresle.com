@@ -1,6 +1,6 @@
 import * as React from "react"
-import Footer from "../components/Footer.js"
-import Navbar from "../components/Navbar.js"
+import Layout from "../components/Layout.js"
+import Seo from "../components/Seo.js"
 import { StaticImage } from "gatsby-plugin-image"
 import Expertises from "../components/Sections/Expertises.js"
 import APropos from "../components/Sections/APropos"
@@ -8,17 +8,19 @@ import Contact from "../components/Sections/Contact"
 import Projects from "../components/Sections/Projects.js"
 import Testimonials from "../components/Sections/Testimonials.js"
 import Blog from "../components/Sections/Blog.js"
-
 // markup
 const IndexPage = () => {
 
   if (typeof document === "undefined") return <></>;
 
   return (
-    <>
-      <Navbar />
+    <Layout>
+      <Seo
+        title="Alexis Lepresle"
+        keywords={[`freelance`, `ecommerce`, `portfolio`, `shopify expert`]}
+      />
       <div className="bg-cover">
-        <div className="homepage-header relative overflow-hidden h-screen flex items-center justify-center pb-10" style={{ minHeight: '750px' }}>
+        <div className="homepage-header relative overflow-hidden h-screen flex items-center justify-center pb-10 bg-cover" style={{ minHeight: '750px' }}>
           <div className="max-w-7xl mx-auto">
             <div className="relative z-10 pb-8sm:pb-16 md:pb-20 lg:w-full">
               <main className="mx-auto px-4 sm:mt-12 sm:px-6 lg:px-8 flex flex-wrap items-center justify-center">
@@ -73,8 +75,7 @@ const IndexPage = () => {
       <APropos />
       <Contact />
       <Blog />
-      <Footer />
-    </>
+    </Layout>
   )
 }
 
