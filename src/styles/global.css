@@ -19,7 +19,6 @@ body{
     background: linear-gradient(96.04deg, #4F46E5 0%, #7D5EF7 100%), #FFFFFF;
 }
 
-
 .btn-transparent{
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(30px);
@@ -200,53 +199,6 @@ body{
 
 
 /**** Carousel ******/ 
-.project-carousel .carousel .slider{
-    width: 100% !important;
-}
-
-@media (min-width: 350px) {
-    .project-carousel .carousel .slider{
-        width: 80% !important;
-    }
-}
-
-@media (min-width: 450px) {
-    .project-carousel .carousel .slider{
-        width: 70% !important;
-    }
-}
-
-@media (min-width: 550px) {
-    .project-carousel .carousel .slider{
-        width: 60% !important;
-    }
-}
-
-@media (min-width: 650px) {
-    .project-carousel .carousel .slider{
-        width: 47% !important;
-    }
-}
-
-@media (min-width: 750px) {
-    .project-carousel .carousel .slider{
-        width: 40% !important;
-    }
-}
-
-@media (min-width: 850px) {
-    .project-carousel .carousel .slider{
-        width: 35% !important;
-    }
-}
-
-@media (min-width: 950px) {
-    .project-carousel .carousel .slider{
-        width: 30% !important;
-    }
-}
-
-
 
 .carousel-slider{
     width: 100%;
@@ -254,25 +206,18 @@ body{
     flex-direction: column-reverse;
 }
 
-.control-dots{
-    position: relative !important;
-    margin: 24px 0px 10px 0px !important;
-}
-
-.control-dots .selected{
+.splide__pagination .is-active{
     background: #4F46E5 !important; 
     box-shadow: none !important;
 }
 
-.dot {
+.splide__pagination__page {
     background: rgba(79, 70, 229, 0.3) !important;
     box-shadow: none !important;
     opacity: 1 !important;
-    width: 15px !important;
-    height: 15px !important;
+    width: 10px !important;
+    height: 10px !important;
 }
-
-
 
 
 /***** Makdown style ****/ 

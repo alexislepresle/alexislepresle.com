@@ -17,6 +17,8 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "@splidejs/react-splide": "^0.6.20",
+    "@splidejs/splide": "^3.6.12",
     "@typeform/embed-react": "^1.6.0",
     "gatsby": "^3.13.1",
     "gatsby-plugin-google-analytics": "^3.14.0",
@@ -39,7 +41,8 @@
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-responsive-carousel": "^3.2.23",
-    "sass": "^1.42.1"
+    "sass": "^1.42.1",
+    "swiper": "^8.0.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.6",
