@@ -46,7 +46,7 @@ const Expertises = () => {
         <section className="py-12 bg-cover" id="expertises">
             <div className="max-w-5xl m-auto py-20 md:py-24 ">
                 <div className="text-center">
-                    <div className="pb-12 m-auto px-4 sm:px-6 lg:px-8">
+                    <div className="m-auto px-4 sm:px-6 lg:px-8">
                         <div className="flex items-center justify-center">
                             <p className="px-5 btn-title m-auto block py-2 border border-transparent text-base font-medium rounded-full text-white bg-black">Services</p>
                         </div>

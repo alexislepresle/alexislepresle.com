@@ -20,7 +20,7 @@ const APropos = () => {
                             <div className="flex lg:items-left lg:justify-left justify-center">
                                 <p className="m-auto lg:ml-0 mb-4 btn-title block px-5 py-2 border border-transparent text-base font-medium rounded-full text-white bg-black">À propos</p>
                             </div>
-                            <h2 className="text-black lg:text-left text-center mt-2 text-4xl leading-8 font-extrabold tracking-tight sm:text-5xl pb-12">
+                            <h2 className="text-black lg:text-left text-center mt-2 text-4xl leading-8 font-extrabold tracking-tight sm:text-5xl">
                                 Qui suis-je ?
                             </h2>
                             <p className="mt-4 text-lg text-gray-700">
