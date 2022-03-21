@@ -39,41 +39,120 @@ body{
 }
 
 .homepage-header{
-    background-image: url("../images/bg-header.avif");
+    background-image: url("../images/bg-header.png");
+    background-image: image-set(
+        url("../images/bg-header.avif") type("image/avif"),
+        url("../images/bg-header.png") type("image/png")
+    );
     background-position: center;
 }
 
 #expertises{
-    background-image: url("../images/bg-services.avif");
+    background-image: url("../images/bg-services.png");
+    background-image: image-set(
+        url("../images/bg-services.avif") type("image/avif"),
+        url("../images/bg-services.png") type("image/png")
+    );
     background-position: center;
 }
 
 #about{
-    background-image: url("../images/bg-about.avif");
+    background-image: url("../images/bg-about.png");
+    background-image: image-set(
+        url("../images/bg-about.avif") type("image/avif"),
+        url("../images/bg-about.png") type("image/png")
+    );
     background-position: center;
 }
 
 @media (max-width: 900px) {
 
     .homepage-header{
-        background-image: url("../images/bg-header-mobile.avif");
+        background-image: url("../images/bg-header-mobile.png");
+        background-image: image-set(
+            url("../images/bg-header-mobile.avif") type("image/avif"),
+            url("../images/bg-header-mobile.png") type("image/png")
+        );
         background-position: center;
         background-size: cover;
     }
     
     #expertises{
-        background-image: url("../images/bg-services-mobile.avif");
+        background-image: url("../images/bg-services-mobile.png");
+        background-image: image-set(
+            url("../images/bg-services-mobile.avif") type("image/avif"),
+            url("../images/bg-services-mobile.png") type("image/png")
+        );
         background-position: center;
         background-size: cover;
     }
     
     #about{
-        background-image: url("../images/bg-about-mobile.avif");
+        background-image: url("../images/bg-about-mobile.png");
+        background-image: image-set(
+            url("../images/bg-about-mobile.avif") type("image/avif"),
+            url("../images/bg-about-mobile.png") type("image/png")
+        );
         background-position: center;
         background-size: cover;
     }
 }
 
+.bg-freedge-beauty{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%), url("../images/bg-freedge.jpeg");
+    background-image: image-set(
+        url("../images/bg-about-mobile.avif") type("image/avif"),
+        url("../images/bg-freedge.jpeg") type("image/jpeg")
+    );
+}
+
+.bg-le-petit-biscuit-francais{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%),  url("../images/bg-lepetitbiscuitfrancais.jpeg");
+    background-image: image-set(
+        url("../images/bg-lepetitbiscuitfrancais.avif") type("image/avif"),
+        url("../images/bg-lepetitbiscuitfrancais.jpeg") type("image/jpeg")
+    );
+}
+
+.bg-bloon{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%),  url("../images/bg-bloon.jpeg");
+    background-image: image-set(
+        url("../images/bg-bloon.jpeg") type("image/avif"),
+        url("../images/bg-bloon.jpeg") type("image/jpeg")
+    );
+}
+
+.bg-blackpines{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%),  url("../images/bg-blackpines.jpeg");
+    background-image: image-set(
+        url("../images/bg-blackpines.jpeg") type("image/avif"),
+        url("../images/bg-blackpines.jpeg") type("image/jpeg")
+    );
+}
+
+.bg-escargot-leandre{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%),  url("../images/bg-escargot-leandre.jpg");
+    background-image: image-set(
+        url("../images/bg-escargot-leandre.avif") type("image/avif"),
+        url("../images/bg-escargot-leandre.jpg") type("image/jpg")
+    );
+}
+
+.bg-erevan{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%),  url("../images/bg-erevan.jpeg");
+    background-image: image-set(
+        url("../images/bg-erevan.avif") type("image/avif"),
+        url("../images/bg-erevan.jpeg") type("image/jpeg")
+    );
+}
+
+.bg-domaine-poujol{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%),  url("../images/bg-poujol.jpeg");
+    background-image: image-set(
+        url("../images/bg-poujol.avif") type("image/avif"),
+        url("../images/bg-poujol.jpeg") type("image/jpeg")
+    );
+}
 
 .me-img{
     width: 190px;

@@ -1,63 +1,56 @@
 import React from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
-import bgFreedge from "../../images/bg-FB.avif"
 import logoFB from "../../images/logo-FB.png"
-import bgBloon from "../../images/bg-bloon.avif"
 import logoBloon from "../../images/logo-bloon.png"
-import bgLPBF from "../../images/bg-lepetitbiscuitfrancais.avif"
 import logoLPBF from "../../images/logo-LPBF.png"
-import bgBlackpines from "../../images/bg-blackpines.avif"
 import logoBlackpines from "../../images/logo-blackpines.png"
-import bgErevan from "../../images/bg-erevan.avif"
 import logoErevan from "../../images/logo-erevan.png"
-import bgPoujol from "../../images/bg-poujol.avif"
 import logoPoujol from "../../images/logo-poujol.png"
-import bgEL from "../../images/bg-escargot-leandre.avif"
 import logoEL from "../../images/logo-EL.png"
 
 const data = [
     {
         client: "Freedge Beauty",
         link: "https://www.freedgebeauty.com/",
-        bg: bgFreedge,
+        class: "bg-freedge-beauty",
         logo: logoFB,
         img: "../../images/logo-FB.png"
     },
     {
         client: "Le Petit Biscuit Français",
         link: "https://lepetitbiscuitfrancais.fr/",
-        bg: bgLPBF,
+        class: "bg-le-petit-biscuit-francais",
         logo: logoLPBF
     },
     {
         client: "Bloon Paris",
         link: "https://bloon-paris.fr/",
-        bg: bgBloon,
+        class: "bg-bloon",
         logo: logoBloon
     },
     {
         client: "Blackpines",
         link: "https://blackpines.fr/",
-        bg: bgBlackpines,
+        class: "bg-blackpines",
         logo: logoBlackpines
     },
     {
         client: "Escargots Léandre",
         link: "https://escargots-leandre.com/",
-        bg: bgEL,
+        class: "bg-escargot-leandre",
         logo: logoEL
     },
     {
         client: "erEvan",
         link: "https://www.erevanofficiel.com/",
-        bg: bgErevan,
+        class: "bg-erevan",
         logo: logoErevan
     },
     {
         client: "Le Domaine de Poujol",
         link: "https://domainedupoujol.com/",
-        bg: bgPoujol,
+        class: "bg-domaine-poujol",
         logo: logoPoujol
     }
 ]
@@ -99,7 +92,7 @@ const Projects = () => {
                                 return (
                                     <SplideSlide key={client.client}>
                                         <div className="px-3 md:px-4 flex-none m-auto w-72 h-96 ">
-                                            <figure className="bg-cover bg-center shadow-lg rounded-xl flex-none md:w-xl bg-indigo-600" style={{ backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%), url(${client.bg})` }}>
+                                            <figure className={client.class + " bg-cover bg-center shadow-lg rounded-xl flex-none md:w-xl bg-indigo-600"}>
                                                 <figcaption className="flex items-center flex-col justify-center space-x-4 p-6 h-96 md:px-10 md:py-6 bg-gradient-to-br rounded-xl leading-6 font-semibold text-white">
                                                     {
                                                         client.logo ? <img decoding="async" src={client.logo} alt={client.client} loading="lazy" width={200} height={100} /> : <></>
