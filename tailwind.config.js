@@ -7,7 +7,7 @@ module.exports = {
       'white': '#FFF',
       'indigo-600': '#4F46E5',
       'gray-400': '#F9F9F9',
-      'gray-700': '#7D8FAA'
+      'gray-700': '#677891'
     }),
     extend: {},
   },

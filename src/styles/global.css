@@ -209,16 +209,17 @@ body{
 .splide__pagination .is-active{
     background: #4F46E5 !important; 
     box-shadow: none !important;
+    width: 13.5px !important;
+    height: 13.5px !important;
 }
 
 .splide__pagination__page {
     background: rgba(79, 70, 229, 0.3) !important;
     box-shadow: none !important;
     opacity: 1 !important;
-    width: 10px !important;
-    height: 10px !important;
+    width: 15.5px !important;
+    height: 15.5px !important;
 }
-
 
 /***** Makdown style ****/ 
 .blogPost-content p{

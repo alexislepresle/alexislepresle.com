@@ -6,7 +6,6 @@ const Footer = () => {
             <div className="flex flex-col items-center justify-between max-w-screen-xl pb-2 mx-auto mt-8 lg:px-8 xl:px-4 md:flex-row lg:mt-12">
                 <nav className="flex flex-wrap justify-center space-x-6">
                     <a href="/cgu" className="text-sm hover:text-indigo-600">Mentions légales</a>
-                    <a href="/#" className="text-sm hover:text-indigo-600">Blog</a>
                     <a href="/contact" className="text-sm hover:text-indigo-600">Contact</a>
                     <a href="https://experts.shopify.com/alexis-lepresle" rel="noreferrer" target="_blank" className="text-sm hover:text-indigo-600">Expert Shopify</a>
                 </nav>
