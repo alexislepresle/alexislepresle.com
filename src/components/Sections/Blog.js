@@ -32,40 +32,40 @@ const Blog = () => {
                 <div>
                     <div>
                         <div>
-                            <dl className="space-y-10 md:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:gap-y-10">
+                            <div className="space-y-10 md:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:gap-y-10">
                                 {
                                     data.map(item => {
                                         return (
-                                            <a href="/#">
-                                                <div className="relative hover:bg-gray-100 max-w-2xl m-auto p-4 rounded-xl duration-1000">
-                                                    <div className="rounded-xl">
-                                                        <StaticImage
-                                                            src={"../../images/IMG_8921.jpg"}
-                                                            style={{
-                                                                borderTopLeftRadius: '0.5rem',
-                                                                borderTopRightRadius: '0.5rem'
-                                                            }}
-                                                            width={800}
-                                                            quality={95}
-                                                            formats={["auto", "webp", "avif"]}
-                                                            alt={item.name}
-                                                        />
-                                                    </div>
-                                                    <div className="py-5">
-                                                        <div className="flex items-center">
-                                                            <div className="flex items-left justify-left">
-                                                                <p className="ml-0 mb-4 btn-title m-auto block px-2 py-1 text-base font-medium rounded-full text-white bg-black"> {item.tag}</p>
-                                                            </div>
-                                                            <div className="flex items-left justify-left px-2">
-                                                                <p className="ml-0 mb-4 btn-title m-auto block px-2 py-1 text-base font-medium rounded-full text-white bg-black"> {item.time}</p>
-                                                            </div>
+
+                                            <div className="relative hover:bg-gray-100 max-w-2xl m-auto p-4 rounded-xl duration-1000">
+                                                <div className="rounded-xl">
+                                                    <StaticImage
+                                                        src={"../../images/IMG_8921.jpg"}
+                                                        style={{
+                                                            borderTopLeftRadius: '0.5rem',
+                                                            borderTopRightRadius: '0.5rem'
+                                                        }}
+                                                        width={800}
+                                                        quality={95}
+                                                        formats={["auto", "webp", "avif"]}
+                                                        alt={item.name}
+                                                    />
+                                                </div>
+                                                <div className="py-5">
+                                                    <div className="flex items-center">
+                                                        <div className="flex items-left justify-left">
+                                                            <p className="ml-0 mb-4 btn-title m-auto block px-2 py-1 text-base font-medium rounded-full text-white bg-black"> {item.tag}</p>
                                                         </div>
-                                                        <p className="mt-4 text-xl leading-6 font-bold text-black">{item.name}</p>
-                                                        <p className="mt-2 text-base font-normal text-gray-700">
-                                                            {item.description}
-                                                        </p>
+                                                        <div className="flex items-left justify-left px-2">
+                                                            <p className="ml-0 mb-4 btn-title m-auto block px-2 py-1 text-base font-medium rounded-full text-white bg-black"> {item.time}</p>
+                                                        </div>
                                                     </div>
-                                                    {/*
+                                                    <p className="mt-4 text-xl leading-6 font-bold text-black">{item.name}</p>
+                                                    <p className="mt-2 text-base font-normal text-gray-700">
+                                                        {item.description}
+                                                    </p>
+                                                </div>
+                                                {/*
                                                     <a href="/contact" className="btn-gradient lg:my-5 mb-5 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white hover:bg-indigo-700">
                                                         Bientôt disponible
                                                         
@@ -77,12 +77,11 @@ const Blog = () => {
 
                                             </a>
                                                                                                 */}
-                                                </div>
-                                            </a>
+                                            </div>
                                         )
                                     })
                                 }
-                            </dl>
+                            </div>
                         </div>
                     </div>
                 </div >

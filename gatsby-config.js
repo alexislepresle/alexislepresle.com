@@ -7,13 +7,16 @@ module.exports = {
     'gatsby-plugin-postcss',
     'gatsby-plugin-image',
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts-with-attributes`,
       options: {
         fonts: [
           `outfit`,
           `wght@400;500;600;700;800;900` // you can also specify font weights and styles
         ],
-        display: 'swap'
+        display: 'swap',
+        attributes: {
+          rel: "stylesheet preload prefetch",
+        },
       }
     },
     {
