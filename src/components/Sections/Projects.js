@@ -21,7 +21,8 @@ const data = [
         client: "Freedge Beauty",
         link: "https://www.freedgebeauty.com/",
         bg: bgFreedge,
-        logo: logoFB
+        logo: logoFB,
+        img: "../../images/logo-FB.png"
     },
     {
         client: "Le Petit Biscuit Français",
@@ -101,7 +102,7 @@ const Projects = () => {
                                             <figure className="bg-cover bg-center shadow-lg rounded-xl flex-none md:w-xl bg-indigo-600" style={{ backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%), url(${client.bg})` }}>
                                                 <figcaption className="flex items-center flex-col justify-center space-x-4 p-6 h-96 md:px-10 md:py-6 bg-gradient-to-br rounded-xl leading-6 font-semibold text-white">
                                                     {
-                                                        client.logo ? <img src={client.logo} alt={client.client} /> : <></>
+                                                        client.logo ? <img decoding="async" src={client.logo} alt={client.client} loading="lazy" width={200} height={100} /> : <></>
                                                     }
                                                     {
                                                         client.link ?

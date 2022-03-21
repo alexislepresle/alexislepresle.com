@@ -124,7 +124,7 @@ const Testimonials = () => {
                                 >
                                     <div className="flex items-center justify-center ">
                                         <div className="bg-white rounded-full p-2 sm:p-3 mr-0 sm:mr-2">
-                                            <img className="w-8 h-8 p-1" src={testimonial.icon} alt={testimonial.name} />
+                                            <img className="w-8 h-8 p-1" decoding="async" loading="lazy" width={32} height={32} src={testimonial.icon} alt={testimonial.name} />
                                         </div>
                                         <div className="sm:block hidden">
                                             {i === currentTestimonial ?
