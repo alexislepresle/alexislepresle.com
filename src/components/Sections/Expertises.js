@@ -53,14 +53,14 @@ const Expertises = () => {
                         <h2 className="text-center mt-2 text-4xl leading-8 font-extrabold tracking-tight text-black sm:text-5xl pb-12">
                             Mes services
                         </h2>
-                        <p className="mt-4 m-auto max-w-2xl text-xl text-gray-700">
+                        <p className="mt-4 m-auto max-w-2xl text-xl text-gray-700 pb-10">
                             Je suis spécialisé dans le développement de boutique e-commerce et d'app Shopify. Mon objectif est de vous accompagner dans votre projet en répondant à vos besoins afin d'accroître vos revenus et de vous faire gagner du temps.
                         </p>
                     </div>
                 </div >
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
                     <div className="hidden lg:block">
-                        <dl className="container space-y-10 md:space-y-0 lg:gap-10 cursor-pointer m-auto">
+                        <div className="container space-y-10 md:space-y-0 lg:gap-10 cursor-pointer m-auto">
                             {
                                 data.map((item, i) => {
                                     return (
@@ -86,7 +86,7 @@ const Expertises = () => {
                                     )
                                 })
                             }
-                        </dl>
+                        </div>
                     </div>
                     <div className="block lg:hidden">
                         <Splide

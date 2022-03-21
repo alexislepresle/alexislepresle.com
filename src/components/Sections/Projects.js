@@ -97,11 +97,11 @@ const Projects = () => {
                             data.map(client => {
                                 return (
                                     <SplideSlide key={client.client}>
-                                        <li className="px-3 md:px-4 flex-none m-auto w-72 h-96 ">
+                                        <div className="px-3 md:px-4 flex-none m-auto w-72 h-96 ">
                                             <figure className="bg-cover bg-center shadow-lg rounded-xl flex-none md:w-xl bg-indigo-600" style={{ backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%), url(${client.bg})` }}>
                                                 <figcaption className="flex items-center flex-col justify-center space-x-4 p-6 h-96 md:px-10 md:py-6 bg-gradient-to-br rounded-xl leading-6 font-semibold text-white">
                                                     {
-                                                        client.logo ? <img src={client.logo} /> : <></>
+                                                        client.logo ? <img src={client.logo} alt={client.client} /> : <></>
                                                     }
                                                     {
                                                         client.link ?
@@ -117,7 +117,7 @@ const Projects = () => {
                                                     }
                                                 </figcaption>
                                             </figure>
-                                        </li>
+                                        </div>
                                     </SplideSlide>
                                 )
                             })
