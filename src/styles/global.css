@@ -39,36 +39,36 @@ body{
 }
 
 .homepage-header{
-    background-image: url("../images/bg-header.png");
+    background-image: url("../images/bg-header.avif");
     background-position: center;
 }
 
 #expertises{
-    background-image: url("../images/bg-services.png");
+    background-image: url("../images/bg-services.avif");
     background-position: center;
 }
 
 #about{
-    background-image: url("../images/bg-about.png");
+    background-image: url("../images/bg-about.avif");
     background-position: center;
 }
 
 @media (max-width: 900px) {
 
     .homepage-header{
-        background-image: url("../images/bg-header-mobile.png");
+        background-image: url("../images/bg-header-mobile.avif");
         background-position: center;
         background-size: cover;
     }
     
     #expertises{
-        background-image: url("../images/bg-services-mobile.png");
+        background-image: url("../images/bg-services-mobile.avif");
         background-position: center;
         background-size: cover;
     }
     
     #about{
-        background-image: url("../images/bg-about-mobile.png");
+        background-image: url("../images/bg-about-mobile.avif");
         background-position: center;
         background-size: cover;
     }

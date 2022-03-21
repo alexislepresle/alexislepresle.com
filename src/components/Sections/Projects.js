@@ -1,19 +1,19 @@
 import React from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
-import bgFreedge from "../../images/bg-FB.png"
+import bgFreedge from "../../images/bg-FB.avif"
 import logoFB from "../../images/logo-FB.png"
-import bgBloon from "../../images/bg-bloon.jpeg"
+import bgBloon from "../../images/bg-bloon.avif"
 import logoBloon from "../../images/logo-bloon.png"
-import bgLPBF from "../../images/bg-lepetitbiscuitfrancais.jpeg"
+import bgLPBF from "../../images/bg-lepetitbiscuitfrancais.avif"
 import logoLPBF from "../../images/logo-LPBF.png"
-import bgBlackpines from "../../images/bg-blackpines.jpeg"
+import bgBlackpines from "../../images/bg-blackpines.avif"
 import logoBlackpines from "../../images/logo-blackpines.png"
-import bgErevan from "../../images/bg-erevan.jpeg"
+import bgErevan from "../../images/bg-erevan.avif"
 import logoErevan from "../../images/logo-erevan.png"
-import bgPoujol from "../../images/bg-poujol.jpeg"
+import bgPoujol from "../../images/bg-poujol.avif"
 import logoPoujol from "../../images/logo-poujol.png"
-import bgEL from "../../images/bg-escargot-leandre.jpg"
+import bgEL from "../../images/bg-escargot-leandre.avif"
 import logoEL from "../../images/logo-EL.png"
 
 const data = [
