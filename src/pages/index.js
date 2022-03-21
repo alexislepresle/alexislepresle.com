@@ -38,7 +38,7 @@ const IndexPage = () => {
                   <p className="text-2xl py-5">Hi, I'm Alexis 👋</p>
                   <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-6xl">
                     <span className="block mb-6 tracking-wide	">Développeur Web en freelance</span>
-                    <span className="text-indigo-600 tracking-wide inline">
+                    <span className="text-indigo-600 tracking-wide inline-block">
                       <span>Certifié Expert Shopify</span>
                       <span className="inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" className="mx-2 w-8 h-8 lg:w-12 lg:h-12" width="50" height="50" viewBox="0 0 66 66" fill="none">
