@@ -27,18 +27,28 @@ const data = [
 
 const Blog = () => {
     return (
-        <section className="relative bg-white" id="blog">
-            <div className="py-20 md:py-24 max-w-5xl m-auto px-4 sm:px-6 lg:px-8">
+        <section className="blog py-24 relative bg-white section" id="blog">
+            <div className="text-center">
+                <div className="m-auto px-4 sm:px-6 lg:px-8">
+                    <div className="flex items-center justify-center appear appear-1">
+                        <p className="px-5 btn-title m-auto block py-2 border border-transparent text-base font-medium rounded-full text-white bg-black">Blog</p>
+                    </div>
+                    <h2 className="text-center mt-4 text-4xl leading-8 font-extrabold tracking-tight text-black sm:text-5xl appear appear-2">
+                        Pour aller plus loin
+                    </h2>
+                </div>
+            </div>
+            <div className="max-w-5xl m-auto mt-10 px-4 sm:px-6 lg:px-8">
                 <div>
                     <div>
                         <div>
-                            <div className="space-y-10 md:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:gap-y-10">
+                            <div className="space-y-10 md:space-y-0 lg:grid lg:grid-cols-3">
                                 {
-                                    data.map(item => {
+                                    data.map((item, i) => {
                                         return (
 
-                                            <div className="relative hover:bg-gray-100 max-w-2xl m-auto p-4 rounded-xl duration-1000">
-                                                <div className="rounded-xl">
+                                            <div className={`article appear appear-${i+2} relative max-w-2xl m-auto p-4 rounded-2xl`}>
+                                                <div className="rounded-xl overflow-hidden illu">
                                                     <StaticImage
                                                         src={"../../images/IMG_8921.jpg"}
                                                         style={{
@@ -52,15 +62,11 @@ const Blog = () => {
                                                     />
                                                 </div>
                                                 <div className="py-5">
-                                                    <div className="flex items-center">
-                                                        <div className="flex items-left justify-left">
-                                                            <p className="ml-0 mb-4 btn-title m-auto block px-2 py-1 text-base font-medium rounded-full text-white bg-black"> {item.tag}</p>
-                                                        </div>
-                                                        <div className="flex items-left justify-left px-2">
-                                                            <p className="ml-0 mb-4 btn-title m-auto block px-2 py-1 text-base font-medium rounded-full text-white bg-black"> {item.time}</p>
-                                                        </div>
+                                                    <div className="flex items-center space-x-3">
+                                                        <p className="ml-0 mb-4 btn-title px-4 py-1 text-base font-medium rounded-full text-white bg-black"> {item.tag}</p>
+                                                        <p className="ml-0 mb-4 btn-title px-4 py-1 text-base font-medium rounded-full text-white bg-black"> {item.time}</p>
                                                     </div>
-                                                    <p className="mt-4 text-xl leading-6 font-bold text-black">{item.name}</p>
+                                                    <p className="mt-2 text-xl leading-6 font-bold text-black">{item.name}</p>
                                                     <p className="mt-2 text-base font-normal text-gray-700">
                                                         {item.description}
                                                     </p>

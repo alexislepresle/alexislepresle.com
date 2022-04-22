@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div className="absolute top-0 py-5 z-40 w-full mx-auto px-4 sm:px-6 lg:px-8">
             <nav className="relative flex items-center justify-between sm:h-10 max-w-5xl m-auto" aria-label="Global">
-                <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+                <div className="md:mr-12 flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                     <div className="flex items-center justify-between w-full lg:w-auto">
                         <a href="/">
                             <StaticImage
@@ -30,7 +30,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-                <div className="hidden lg:block md:ml-10 md:pr-4 md:space-x-8">
+                <div className="hidden lg:block md:ml-10 md:pr-4 md:space-x-6">
                     {
                         typeof window !== `undefined` && window.location.pathname === "/" ?
                             <>
@@ -52,7 +52,7 @@ const Navbar = () => {
 
                 </div>
                 <div className="hidden lg:block">
-                    <a href="/contact" className="btn-gradient inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white hover:bg-indigo-700">
+                    <a href="/contact" className="btn btn-gradient">
                         Me Contacter
                         <span>
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

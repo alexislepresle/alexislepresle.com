@@ -8,6 +8,7 @@ import logoBlackpines from "../../images/logo-blackpines.png"
 import logoErevan from "../../images/logo-erevan.png"
 import logoPoujol from "../../images/logo-poujol.png"
 import logoEL from "../../images/logo-EL.png"
+import rocket from "../../images/rocket.png"
 
 const data = [
     {
@@ -57,24 +58,27 @@ const data = [
 
 const Projects = () => {
     return (
-        <section id="projects">
-            <div className="py-20 md:py-24 max-w-5xl m-auto px-4 sm:px-6 lg:px-8 relative z-50">
-                <div className="flex items-center justify-center">
+        <section id="projects" className="section">
+
+            <div className="py-20 md:py-24 max-w-4xl m-auto px-4 sm:px-6 lg:px-8 relative z-50">
+                <img className="floating-object left" src={rocket} role="presentation" />
+                <div className="flex items-center justify-center appear appear-1">
                     <p className="btn-title m-auto block px-5 py-2 border border-transparent text-base font-medium rounded-full text-white bg-black">Projets</p>
                 </div>
-                <h2 className="text-center mt-2 text-4xl leading-8 font-extrabold tracking-tight text-black sm:text-5xl pb-12 max-w-xl m-auto">
+                <h2 className="text-center mt-4 text-4xl leading-8 font-extrabold tracking-tight text-black sm:text-5xl pb-12 max-w-xl m-auto appear appear-2">
                     Ils travaillent avec moi
                 </h2>
-                <div >
+                <div className="appear appear-3">
                     <Splide
                         options={{
                             type: 'loop',
-                            gap: 0,
+                            gap: 30,
                             perPage: 3,
                             perMove: 1,
                             autoplay: true,
                             pauseOnHover: true,
                             resetProgress: false,
+                            arrows: false,
                             height: '27rem',
                             breakpoints: {
 
@@ -91,7 +95,7 @@ const Projects = () => {
                             data.map(client => {
                                 return (
                                     <SplideSlide key={client.client}>
-                                        <div className="px-3 md:px-4 flex-none m-auto w-72 h-96 ">
+                                        <div className="h-96 ">
                                             <figure className={client.class + " bg-cover bg-center shadow-lg rounded-xl flex-none md:w-xl bg-indigo-600"}>
                                                 <figcaption className="flex items-center flex-col justify-center space-x-4 p-6 h-96 md:px-10 md:py-6 bg-gradient-to-br rounded-xl leading-6 font-semibold text-white">
                                                     {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
+import box from "../../images/box.png"
 
 const data = [
     {
@@ -43,28 +44,29 @@ const data = [
 
 const Expertises = () => {
     return (
-        <section className="py-12 bg-cover" id="expertises">
-            <div className="max-w-5xl m-auto py-20 md:py-24 ">
+        <section className="py-12 bg-cover section" id="expertises">
+            <div className="max-w-5xl m-auto py-20 md:py-24 relative">
+                <img className="floating-object right" src={box} role="presentation" />
                 <div className="text-center">
                     <div className="m-auto px-4 sm:px-6 lg:px-8">
-                        <div className="flex items-center justify-center">
+                        <div className="flex items-center justify-center appear appear-1">
                             <p className="px-5 btn-title m-auto block py-2 border border-transparent text-base font-medium rounded-full text-white bg-black">Services</p>
                         </div>
-                        <h2 className="text-center mt-2 text-4xl leading-8 font-extrabold tracking-tight text-black sm:text-5xl pb-12">
+                        <h2 className="text-center mt-2 mb-4 text-4xl leading-8 font-extrabold tracking-tight text-black sm:text-5xl appear appear-2">
                             Mes services
                         </h2>
-                        <p className="mt-4 m-auto max-w-2xl text-xl text-gray-700 pb-10">
+                        <p className="mt-4 m-auto max-w-2xl text-xl text-gray-700 pb-10 appear appear-3">
                             Je suis spécialisé dans le développement de boutique e-commerce et d'app Shopify. Mon objectif est de vous accompagner dans votre projet en répondant à vos besoins afin d'accroître vos revenus et de vous faire gagner du temps.
                         </p>
                     </div>
-                </div >
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+                </div>
+                <div className="wrapper-services max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
                     <div className="hidden lg:block">
                         <div className="container space-y-10 md:space-y-0 lg:gap-10 cursor-pointer m-auto">
                             {
                                 data.map((item, i) => {
                                     return (
-                                        <div className={(i % 2 != 0 ? "bg-white " : "border-gray-300 ") + "text-center relative rounded-xl shadow-full p-5 " + `box-${i + 1}`} style={(i % 2 === 0 ? { borderWidth: '1px' } : {})}>
+                                        <div className={"text-center relative rounded-xl appear-4 p-5 box" + ` box-${i + 1}`}>
                                             <p className="text-6xl py-10">{item.icon}</p>
                                             <p className="px-12 mt-4 text-xl leading-6 font-bold">{item.name}</p>
                                             <p className="px-2 mt-2 text-base text-gray-700">

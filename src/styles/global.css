@@ -2,17 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    font-family: 'Outfit', sans-serif;
+body {
     background-color: #F9F9F9;
+    font-family: 'Outfit', sans-serif;
+    overflow-x: hidden;
 }
 
 .gatsby-image-wrapper div{
     background-color: rgb(0 0 0 / 0%) !important;
 }
 
+.btn {
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 35px;
+    display: flex;
+}
+
 .btn-gradient{
     background: linear-gradient(96.04deg, #4F46E5 0%, #7D5EF7 100%);
+    color: #fff;
 }
 
 .bg-indigo-gradient{
@@ -38,13 +47,65 @@ body{
     color: #4F46E5;
 }
 
-.homepage-header{
+.homepage-header {
     background-image: url("../images/bg-header.png");
     background-image: image-set(
         url("../images/bg-header.avif") type("image/avif"),
         url("../images/bg-header.png") type("image/png")
     );
     background-position: center;
+}
+
+.homepage-header .wave {
+    display: inline-block;
+    animation-name: waving;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes waving {
+    2% {
+        transform: rotate(12deg);
+    }
+    5% {
+        transform: rotate(-12deg);
+    }
+    8% {
+        transform: rotate(8deg);
+    }
+    15% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.homepage-header .btn {
+    transform: translateY(1.5em);
+    opacity: 0;
+    animation-name: btnHeader;
+    animation-duration: 300ms;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(.24,.68,.5,1.18);
+    animation-fill-mode: forwards;
+}
+
+.homepage-header .btn:nth-child(1) {
+    animation-delay: 400ms;
+}
+
+.homepage-header .btn:nth-child(2) {
+    animation-delay: 600ms;
+}
+
+@keyframes btnHeader {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 #expertises{
@@ -315,4 +376,100 @@ body{
     font-size: 1.75rem;
     margin-bottom: 1rem;
     margin-top: 2rem;
+}
+
+.appear {
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 500ms ease-in-out;
+}
+
+.section.active .appear {
+    transform: translate(0);
+    opacity: 1;
+}
+
+.section.active .appear-2 {
+    transition-delay: 150ms;
+}
+
+.section.active .appear-3 {
+    transition-delay: 300ms;
+}
+
+.section.active .appear-4 {
+    transition-delay: 500ms !important;
+}
+
+.wrapper-services .box {
+    border: 1px solid #ccc;
+}
+
+.section.active .wrapper-services :is(.box-2, .box-4, .box-6) {
+    background-color: #fff;
+    border: 0;
+    box-shadow: 0px 15px 100px 0px rgba(0, 0, 0, .1);
+    transition: 750ms;
+}
+
+.splide__pagination {
+    bottom: -1em !important;
+}
+
+.splide__pagination__page,
+.splide__pagination .is-active {
+    width: 10px !important;
+    height: 10px !important;
+    margin: 5px !important;
+    transform: scale(1) !important;
+}
+
+.floating-object {
+    width: 175px;
+    position: absolute;
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, .15));
+}
+
+.floating-object.left {
+    left: -10%;
+}
+
+.floating-object.right {
+    right: -10%;
+}
+
+.floating-object.hand {
+    width: 225px;
+    right: -15%;
+    top: -100px;
+}
+
+span.word {
+    display: inline-block;
+    transform: translateY(.5em);
+    opacity: 0;
+    animation-name: word;
+    animation-duration: 300ms;
+    animation-timing-function: cubic-bezier(.24,.68,.5,1.18);
+    animation-fill-mode: forwards;
+}
+
+@keyframes word {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.blog .article:hover {
+    background-color: #f8f8f8;
+    transition: 500ms;
+}
+
+.blog .article .illu {
+    transition: 500ms;
+}
+
+.blog .article:hover .illu {
+    box-shadow: 0px 25px 75px 0px rgba(0, 0, 0, .2);
 }
