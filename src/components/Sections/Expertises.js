@@ -66,7 +66,7 @@ const Expertises = () => {
                             {
                                 data.map((item, i) => {
                                     return (
-                                        <div className={"text-center relative rounded-xl appear-4 p-5 box" + ` box-${i + 1}`}>
+                                        <div className={"text-center relative rounded-xl p-5 box" + ` box-${i + 1}`}>
                                             <p className="text-6xl py-10">{item.icon}</p>
                                             <p className="px-12 mt-4 text-xl leading-6 font-bold">{item.name}</p>
                                             <p className="px-2 mt-2 text-base text-gray-700">
