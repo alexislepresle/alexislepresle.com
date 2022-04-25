@@ -1,25 +1,28 @@
 import React from 'react';
 import { StaticImage } from "gatsby-plugin-image"
+import article1 from "../../images/choisir-theme-shopify.png"
+import article2 from "../../images/automatisation.png"
+import article3 from "../../images/top-10-shopify-app.png"
 
 const data = [
     {
         name: "[Bientôt dispo] Comment choisir un thème pour votre boutique Shopify ? ",
         description: "Choisir un thème quand on n'y connaît rien, peut vite devenir compliquer. Dans cette article je vais vous donnner quelques astuces pour choisir un thème.",
-        img: "../../images/choisir-theme-shopify.png",
+        img: article1,
         tag: "Shopify",
         time: '7 min de lecture'
     },
     {
         name: "[Bientôt dispo] Comment automatiser votre boutique et gagner du temps ? ",
         description: "Il existe aujourd'hui énormement d'outil no-code. Pourquoi ne pas les exporter et vous faire gagner du temps et de l'argent chaque jour.",
-        img: "../../images/automatisation.png",
+        img: article2,
         tag: "No-Code",
         time: '7 min de lecture'
     },
     {
         name: "[Bientôt dispo] Mon top 10 des apps Shopify en 2022",
         description: "Dans cette article je vais vous partager les apps que j'utilise pour mes clients et vous expliquer les avantages et pourquoi devriez vous aussi les installer.",
-        img: "../../images/top-10-shopify-app.png",
+        img: article3,
         tag: "Shopify",
         time: '7 min de lecture'
     }
@@ -49,17 +52,7 @@ const Blog = () => {
 
                                             <div className={`article appear appear-${i + 2} relative max-w-2xl m-auto p-4 rounded-2xl`}>
                                                 <div className="rounded-xl overflow-hidden illu">
-                                                    <StaticImage
-                                                        src={"../../images/IMG_8921.jpg"}
-                                                        style={{
-                                                            borderTopLeftRadius: '0.5rem',
-                                                            borderTopRightRadius: '0.5rem'
-                                                        }}
-                                                        width={800}
-                                                        quality={95}
-                                                        formats={["auto", "webp", "avif"]}
-                                                        alt={item.name}
-                                                    />
+                                                    <img className="w-full" decoding="async" loading="lazy" width={300} height={200} src={item.img} alt={item.name} />
                                                 </div>
                                                 <div className="py-5">
                                                     <div className="flex items-center space-x-3">
