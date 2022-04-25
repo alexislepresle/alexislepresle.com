@@ -8,7 +8,7 @@ const Footer = () => {
 
                     <p className="text-lg">Alexis Lepresle &copy; {new Date().getFullYear()}</p>
 
-                    <nav className="flex flex-wrap justify-center space-x-6">
+                    <nav className="mt-6 md:mt-0 flex flex-wrap justify-center space-x-6">
                         <a href="/cgu" className="text-sm hover:text-indigo-600">Mentions légales</a>
                         <a href="/contact" className="text-sm hover:text-indigo-600">Contact</a>
                         <a href="https://experts.shopify.com/alexis-lepresle" rel="noreferrer" target="_blank" className="text-sm hover:text-indigo-600">Expert Shopify</a>
@@ -34,7 +34,7 @@ const Footer = () => {
                         </a>
                     </nav>
                 </div>
-                <div className="flex justify-between max-w-screen-xl mx-auto lg:px-8 xl:px-4 md:flex-row ">
+                <div className="flex justify-center mt-8 md:mt-0 md:justify-between max-w-screen-xl mx-auto lg:px-8 xl:px-4 md:flex-row ">
                     <nav className="flex items-center md:hidden space-x-4">
                         <a href="https://www.linkedin.com/in/alexislepresle/" rel="noreferrer" className="text-gray-500 hover:text-indigo-600 px-2" target="_blank">
                             <span className="sr-only hover:text-indigo-600">Linkedin</span>

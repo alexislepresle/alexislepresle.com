@@ -8,14 +8,14 @@ const Navbar = () => {
 
     return (
         <div className="navbar absolute top-0 py-5 z-40 w-full mx-auto px-4 sm:px-6 lg:px-8">
-            <nav className="relative flex items-center justify-between sm:h-10 max-w-5xl m-auto" aria-label="Global">
-                <div className="flex">
-                    <div className="flex items-center justify-between w-full lg:w-auto">
+            <nav className="w-fumm relative flex items-center justify-between sm:h-10 max-w-5xl m-auto" aria-label="Global">
+                <div className="w-full xl:w-auto flex justify-between">
+                    <div className="flex items-center justify-between w-full xl:w-auto">
                         <a href="/">
                             <img className="logo" src={logo} alt="Alexis Lepresle" />
                         </a>
-                        <div className={open ? 'hidden' : 'block' + (" -mr-2 flex items-center lg:hidden")}>
-                            <button onClick={() => setOpen(!open)} type="button" className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+                        <div className={open ? 'hidden' : 'block' + (" -mr-2 flex items-center xl:hidden")}>
+                            <button onClick={() => setOpen(!open)} type="button" className="rounded-md p-2 inline-flex items-center justify-center hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
                                 <span className="sr-only">Open main menu</span>
                                 <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -24,7 +24,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-                <div className="tabs hidden lg:flex md:space-x-4">
+                <div className="tabs hidden xl:flex md:space-x-4">
                     {
                         typeof window !== `undefined` && window.location.pathname === "/" ?
                             <>
@@ -45,7 +45,7 @@ const Navbar = () => {
                     }
 
                 </div>
-                <div className="hidden lg:block">
+                <div className="hidden xl:block">
                     <a href="/contact" className="btn btn-gradient">Me Contacter ➝</a>
                 </div>
             </nav>

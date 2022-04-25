@@ -465,6 +465,18 @@ body {
     right: -10%;
 }
 
+@media screen and (max-width: 600px) {
+    .floating-object {
+        width: 125px;
+    }
+    .floating-object.left {
+        left: -20%;
+    }
+    .floating-object.right {
+        right: -20%;
+    }
+}
+
 .floating-object.hand {
     width: 225px;
     right: -15%;
@@ -494,14 +506,15 @@ span.word {
 }
 
 .blog .article .illu {
-    transition: 500ms;
+    transition: 300ms;
 }
 
 .blog .article:hover .illu {
-    box-shadow: 0px 25px 75px 0px rgba(0, 0, 0, .2);
+    box-shadow: 0px 25px 75px 0px rgba(0, 0, 0, .1);
 }
 
 .navbar {
+    width: 100vw;
     background-color: rgba(255, 255, 255, .85);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
