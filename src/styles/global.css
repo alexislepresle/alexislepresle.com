@@ -6,6 +6,11 @@ body {
     background-color: #F9F9F9;
     font-family: 'Outfit', sans-serif;
     overflow-x: hidden;
+    width: 100vw; 
+}
+
+html{
+    width: 100vw; 
 }
 
 .gatsby-image-wrapper div{
