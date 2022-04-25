@@ -23,6 +23,7 @@ const SEO = ({
             <html lang="fr" />
             <title>{title ? title : defaultTitle}</title>
             <meta name="description" content={description || defaultDescription} />
+            <meta name="google-site-verification" content="y3RReeemd-GT8d4-197eXIF0DGFZpR4A_BcRtmKowAI" />
             <link
                 rel="apple-touch-icon"
                 sizes="180x180"
