@@ -7,21 +7,21 @@ import article3 from "../../images/top-10-shopify-app.png"
 const data = [
     {
         name: "[Bientôt dispo] Comment choisir un thème pour votre boutique Shopify ? ",
-        description: "Choisir un thème quand on n'y connaît rien, peut vite devenir compliquer. Dans cette article je vais vous donnner quelques astuces pour choisir un thème.",
+        description: "Choisir un thème quand on n'y connaît rien, peut vite devenir compliqué. Dans cet article je vais vous donner quelques astuces pour choisir un thème.",
         img: article1,
         tag: "Shopify",
         time: '7 min de lecture'
     },
     {
         name: "[Bientôt dispo] Comment automatiser votre boutique et gagner du temps ? ",
-        description: "Il existe aujourd'hui énormement d'outil no-code. Pourquoi ne pas les exporter et vous faire gagner du temps et de l'argent chaque jour.",
+        description: "Il existe aujourd'hui énormément d'outils no-code. Pourquoi ne pas les exploiter et vous faire gagner du temps et de l'argent chaque jour..",
         img: article2,
         tag: "No-Code",
         time: '7 min de lecture'
     },
     {
         name: "[Bientôt dispo] Mon top 10 des apps Shopify en 2022",
-        description: "Dans cette article je vais vous partager les apps que j'utilise pour mes clients et vous expliquer les avantages et pourquoi devriez vous aussi les installer.",
+        description: "Dans cet article je vais vous partager les apps que j'utilise pour mes clients. En vous expliquer les avantages et pourquoi devriez vous aussi les installer sur votre boutique.",
         img: article3,
         tag: "Shopify",
         time: '7 min de lecture'
