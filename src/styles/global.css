@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+#___gatsby {
+    position: relative;
+    overflow: hidden;
+}
+
 body {
     background-color: #F9F9F9;
     font-family: 'Outfit', sans-serif;
