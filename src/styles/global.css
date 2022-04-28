@@ -472,13 +472,7 @@ html{
 
 @media screen and (max-width: 600px) {
     .floating-object {
-        width: 125px;
-    }
-    .floating-object.left {
-        left: -20%;
-    }
-    .floating-object.right {
-        right: -20%;
+        display: none;
     }
 }
 
