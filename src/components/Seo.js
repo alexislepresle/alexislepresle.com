@@ -17,7 +17,6 @@ const SEO = ({
     keywords,
     cover
 }) => {
-    console.log('coverDefault', coverDefault)
     return (
         <Helmet>
             <html lang="fr" />
