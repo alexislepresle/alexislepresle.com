@@ -11,14 +11,14 @@ import {
     themeColor
 } from '../data/config'
 
-const SEO = ({
+const Seo = ({
     description,
     title,
     keywords,
     cover
 }) => {
     return (
-        <Helmet>
+        <Helmet title={title ? title : defaultTitle}>
             <html lang="fr" />
             <title>{title ? title : defaultTitle}</title>
             <meta name="description" content={description || defaultDescription} />
@@ -60,4 +60,4 @@ const SEO = ({
     )
 }
 
-export default SEO;
+export default Seo;

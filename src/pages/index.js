@@ -21,19 +21,19 @@ const IndexPage = () => {
     let scroll = window.scrollY;
     window.addEventListener('scroll', () => {
       scroll = window.scrollY
-      for(let elt of document.querySelectorAll('.section')) {
-        if(scroll > elt.offsetTop - (window.innerHeight / 2)) elt.classList.add('active')
+      for (let elt of document.querySelectorAll('.section')) {
+        if (scroll > elt.offsetTop - (window.innerHeight / 2)) elt.classList.add('active')
         else elt.classList.remove('active')
       }
     });
 
-    let i=0;
-    for(let word of document.querySelectorAll('span.word')) {
-      word.style.animationDelay = i*50+'ms';
+    let i = 0;
+    for (let word of document.querySelectorAll('span.word')) {
+      word.style.animationDelay = i * 50 + 'ms';
       i++;
     }
 
-    for(let item of document.querySelectorAll('.floating-object')) {
+    for (let item of document.querySelectorAll('.floating-object')) {
       gsap.from(item, {
         y: -100,
         scrollTrigger: {
