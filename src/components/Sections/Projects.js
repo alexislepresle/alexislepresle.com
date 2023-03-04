@@ -5,15 +5,40 @@ import logoFB from "../../images/logo-FB.png"
 import logoBloon from "../../images/logo-bloon.png"
 import logoLPBF from "../../images/logo-LPBF.png"
 import logoBlackpines from "../../images/logo-blackpines.png"
-import logoErevan from "../../images/logo-erevan.png"
 import logoPoujol from "../../images/logo-poujol.png"
-import logoEL from "../../images/logo-EL.png"
+import logoCQFD from "../../images/logo-cqfd.png"
+import logoBarooders from "../../images/logo-barooders.png"
+import logoSato from "../../images/logo-sato.png"
 import rocket from "../../images/rocket.png"
 
 const data = [
     {
+        client: "Barooders",
+        link: "https://barooders.com/",
+        class: "bg-barooders",
+        logo: logoBarooders
+    },
+    {
+        client: "CQFD",
+        link: "https://cqfd.com/",
+        class: "bg-cqfd",
+        logo: logoCQFD
+    },
+    {
+        client: "Sato",
+        link: "https://sato-eyewear.com/",
+        class: "bg-sato",
+        logo: logoSato
+    },
+    {
+        client: "Bloon Paris",
+        link: "https://bloon-paris.fr/",
+        class: "bg-bloon",
+        logo: logoBloon
+    },
+    {
         client: "Freedge Beauty",
-        link: "https://www.freedgebeauty.com/",
+        link: "https://www.lescosmetiquesfrais.fr/",
         class: "bg-freedge-beauty",
         logo: logoFB,
         img: "../../images/logo-FB.png"
@@ -25,28 +50,10 @@ const data = [
         logo: logoLPBF
     },
     {
-        client: "Bloon Paris",
-        link: "https://bloon-paris.fr/",
-        class: "bg-bloon",
-        logo: logoBloon
-    },
-    {
         client: "Blackpines",
         link: "https://blackpines.fr/",
         class: "bg-blackpines",
         logo: logoBlackpines
-    },
-    {
-        client: "Escargots Léandre",
-        link: "https://escargots-leandre.com/",
-        class: "bg-escargot-leandre",
-        logo: logoEL
-    },
-    {
-        client: "erEvan",
-        link: "https://www.erevanofficiel.com/",
-        class: "bg-erevan",
-        logo: logoErevan
     },
     {
         client: "Le Domaine de Poujol",

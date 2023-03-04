@@ -193,6 +193,30 @@ html{
     );
 }
 
+.bg-cqfd{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%),  url("../images/bg-cqfd.jpeg");
+    background-image: image-set(
+        url("../images/bg-cqfd.jpeg") type("image/avif"),
+        url("../images/bg-cqfd.jpeg") type("image/jpeg")
+    );
+}
+
+.bg-barooders{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%),  url("../images/bg-barooders.jpeg");
+    background-image: image-set(
+        url("../images/bg-barooders.jpeg") type("image/avif"),
+        url("../images/bg-barooders.jpeg") type("image/jpeg")
+    );
+}
+
+.bg-sato{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%),  url("../images/bg-sato.jpg");
+    background-image: image-set(
+        url("../images/bg-sato.jpg") type("image/avif"),
+        url("../images/bg-sato.jpg") type("image/jpeg")
+    );
+}
+
 .bg-blackpines{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.46) 100%),  url("../images/bg-blackpines.jpeg");
     background-image: image-set(

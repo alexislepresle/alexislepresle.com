@@ -20,7 +20,7 @@ const data = [
         time: '7 min de lecture'
     },
     {
-        name: "[Bientôt dispo] Mon top 10 des apps Shopify en 2022",
+        name: "[Bientôt dispo] Mon top 10 des apps Shopify",
         description: "Dans cet article je vais vous partager les apps que j'utilise pour mes clients. En vous expliquer les avantages et pourquoi devriez vous aussi les installer sur votre boutique.",
         img: article3,
         tag: "Shopify",
