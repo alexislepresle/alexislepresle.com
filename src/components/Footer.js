@@ -11,7 +11,7 @@ const Footer = () => {
                     <nav className="mt-6 md:mt-0 flex flex-wrap justify-center space-x-6">
                         <a href="/cgu" className="text-sm hover:text-indigo-600">Mentions légales</a>
                         <a href="/contact" className="text-sm hover:text-indigo-600">Contact</a>
-                        <a href="https://experts.shopify.com/alexis-lepresle" rel="noreferrer" target="_blank" className="text-sm hover:text-indigo-600">Expert Shopify</a>
+                        <a href="https://www.shopify.com/partners/directory/partner/alexis-lepresle" rel="noreferrer" target="_blank" className="text-sm hover:text-indigo-600">Shopify Partner</a>
                     </nav>
                     <nav className="items-center md:flex hidden space-x-4">
                         <a href="https://www.linkedin.com/in/alexislepresle/" rel="noreferrer" className="text-gray-500 px-2 icon-social" target="_blank">
