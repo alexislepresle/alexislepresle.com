@@ -27,12 +27,13 @@ const APropos = () => {
                             </h2>
                             <p className="mt-4 text-lg text-gray-700 appear appear-3">
                                 J'ai commencé ma carrière de <b>développeur web freelance </b>en parallèle de mes études en 2017.
-                                Au fil des années, je me suis <b>spécialisé dans le développement Web </b> et le langage <b>JavaScript</b>. Puis, plus particulièrement
-                                dans les librairies <b>React JS</b> et <b>Node JS</b>.
+                                Au fil des années, je me suis <b>spécialisé dans le développement web </b> et le langage <b>JavaScript</b>. Puis, plus particulièrement
+                                dans les bibliothéques <b>React JS</b> et <b>Node JS</b>.
                             </p>
+                                    
                             <p className="mt-4 text-lg text-gray-700 appear appear-3">
-                                En <b>2019</b>, je me suis intéressé à <b>l'e-commerce</b> et j'ai découvert la plateforme <b>Shopify et son écosystème</b>.
-                                Puis, j'ai commencé à me <b>spécialiser dans Shopify</b> en proposant de nouveaux services à mes clients.
+                                En <b>2019</b>, je me suis intéressé à <b>l'e-commerce</b> et j'ai découvert la plateforme <b>Shopify ainsi que son écosystème</b>. 
+                                J'ai ensuite commencé à me spécialiser dans Shopify en proposant de nouveaux services à mes clients.
                             </p>
                             <p className="mt-4 text-lg text-gray-700 appear appear-3">
                                 Aujourd'hui, <b> j'accompagne mes clients à plein temps dans leurs projets e-commerce</b>.
