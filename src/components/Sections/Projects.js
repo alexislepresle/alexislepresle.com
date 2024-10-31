@@ -40,8 +40,7 @@ const data = [
         client: "Freedge Beauty",
         link: "https://www.lescosmetiquesfrais.fr/",
         class: "bg-freedge-beauty",
-        logo: logoFB,
-        img: "../../images/logo-FB.png"
+        logo: logoFB
     },
     {
         client: "Le Petit Biscuit Français",
