@@ -32,7 +32,7 @@ const APropos = () => {
                             </p>
                             <p className="mt-4 text-lg text-gray-700 appear appear-3">
                                 En <b>2019</b>, je me suis intéressé à <b>l'e-commerce</b> et j'ai découvert la plateforme <b>Shopify et son écosystème</b>.
-                                Puis, j'ai commencé à me <b>spécialisé dans Shopify</b> en proposant de nouveaux services à mes clients.
+                                Puis, j'ai commencé à me <b>spécialiser dans Shopify</b> en proposant de nouveaux services à mes clients.
                             </p>
                             <p className="mt-4 text-lg text-gray-700 appear appear-3">
                                 Aujourd'hui, <b> j'accompagne mes clients à plein temps dans leurs projets e-commerce</b>.
